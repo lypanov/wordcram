@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+}
+
+#front, #back {
+	position:absolute;
+	top:0;
+	left:0;
+	width:250px;
+	height:175px;
+}
+
+#front {
+	display: block;
+}
+#back {
+	display: none;
+}
+
+.ctrTitleClass {
+	position:absolute;
+	top:32px;
+	width:90%;
+	left:5%;
+	font:16px "Helvetica Neue";
+	font-weight: bold;
+	color:white;
+	text-align:center;
+}
+
+#ctrTitle {
+	top:32px;
+}
+
+#restartTest {
+	top:50px;
+}
+
+#infoButton {
+	position:absolute;
+	bottom: 17px;
+	right: 55px;
+}
+
+#doneButton {
+	position: absolute;
+	bottom: 20px;
+	left: 82px;
+}
+
+#ctrText {
+	position:absolute;
+	top:0;
+	width:100%;
+	font:14px "Helvetica Neue";
+	color:white;
+	text-align:center;
+}
+
+.topEdge {
+	position:absolute;
+	top:0;
+	left:0;
+	width:250px;
+	height:28px;
+	background-image: url("Top.png");
+	background-repeat: no-repeat;
+}
+
+.bottomEdge {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:250px;
+	height:29px;
+	background-image: url("Bottom.png");
+	background-repeat: no-repeat;
+}
+
+#testSelect {
+	position: absolute;
+	bottom: 50px;
+	left: 82px;
+}
+
+.centerArea {
+	position:absolute;
+	top:28px; /* set to topEdge.bottom, or (topEdge.top + topEdge.height) */
+	bottom:29px; /* set to bottomEdge.top, or (bottomEdge.bottom + bottomEdge.height) */
+	right:0;
+	left:0;
+	background-image:url("Center.png");
+	background-repeat:repeat-y;
+	overflow:hidden;
+}
+
+#debugDiv {
+	border-style:dotted; 
+	border-color:black;
+	background:gray;
+	position:absolute;
+	top:300px;
+	left:10px;
+	right:10px;
+	height:200px;
+	width:90%;
+	overflow:scroll;
+	display:none;
+}
+
+#quote {
+	font: 10px "Lucida Grande" ;
+	font-weight: bold; 
+	color: gray; 
+	text-shadow: white 0px 1px 0px;
+	position: absolute; 
+	top: 111px; 
+	left: 75px;
+	width: 165px;
+	opacity: 1.0;
+}
+
+.action-button {
+	border: 0;
+}
+
+#crying {
+	position: absolute; 
+	top: 90px; 
+	left: 75px;
+}
+
+#worried {
+	position: absolute; 
+	top: 90px; 
+	left: 117px;
+}
+
+#restart {
+	position: absolute;
+	top: 90px;
+	left: 104px;
+}
+
+#happy {
+	position: absolute; 
+	top: 90px; 
+	left: 161px;	
+}

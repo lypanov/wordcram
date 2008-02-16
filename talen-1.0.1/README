@@ -1,0 +1,21 @@
+This is part of the Talen project
+Copyright (C) 2002 Alexander Kellett
+See the file COPYING.fdl for copying conditions.
+
+To use me, just copy the "data" directory
+onto a new directory "lessons". 
+
+Run the program as follows:
+   cd <the directory into which you installed>
+   ./trainer.py lessons/les.aa
+
+An idea is to install it into your home directory
+then add a "alias" to your .bashrc file, 
+
+   alias 'nl $HOME/nl/trainer.py $HOME/nl/lessons/les.aa'
+
+Where "less.aa" is your current lesson.
+When your think your good enough at a given
+file you can simply change this to "ab" for example.
+
+Alexander Kellett (lypanov)

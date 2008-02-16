@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<!DOCTYPE kvtml SYSTEM "kvoctrain.dtd">
+ <kvtml
+  encoding="UTF-8"
+  generator="kvoctrain v0.8.1"
+  title="english french moderate difficulty words">
+
+ <lesson>
+  <desc no="1" current="1">Set 1</desc>
+  <desc no="2">Set 2</desc>
+  <desc no="3">Set 3</desc>
+  <desc no="4">Set 4</desc>
+  <desc no="5">Set 5</desc>
+  <desc no="6">Set 6</desc>
+  <desc no="7">Set 7</desc>
+  <desc no="8">Set 8</desc>
+  <desc no="9">Set 9</desc>
+  <desc no="10">Set 10</desc>
+  <desc no="11">Set 11</desc>
+  <desc no="12">Set 12</desc>
+  <desc no="13">Set 13</desc>
+  <desc no="14">Set 14</desc>
+  <desc no="15">Set 15</desc>
+  <desc no="16">Set 16</desc>
+  <desc no="17">Set 17</desc>
+  <desc no="18">Set 18</desc>
+  <desc no="19">Set 19</desc>
+  <desc no="20">Set 20</desc>
+  <desc no="21">Set 21</desc>
+  <desc no="22">Set 22</desc>
+  <desc no="23">Set 23</desc>
+  <desc no="24">Set 24</desc>
+  <desc no="25">Set 25</desc>
+  <desc no="26">Set 26</desc>
+  <desc no="27">Set 27</desc>
+  <desc no="28">Set 28</desc>
+  <desc no="29">Set 29</desc>
+  <desc no="30">Set 30</desc>
+  <desc no="31">Set 31</desc>
+  <desc no="32">Set 32</desc>
+  <desc no="33">Set 33</desc>
+  <desc no="34">Set 34</desc>
+  <desc no="35">Set 35</desc>
+  <desc no="36">Set 36</desc>
+  <desc no="37">Set 37</desc>
+  <desc no="38">Set 38</desc>
+  <desc no="39">Set 39</desc>
+  <desc no="40">Set 40</desc>
+  <desc no="41">Set 41</desc>
+  <desc no="42">Set 42</desc>
+  <desc no="43">Set 43</desc>
+  <desc no="44">Set 44</desc>
+  <desc no="45">Set 45</desc>
+  <desc no="46">Set 46</desc>
+  <desc no="47">Set 47</desc>
+  <desc no="48">Set 48</desc>
+  <desc no="49">Set 49</desc>
+  <desc no="50">Set 50</desc>
+  <desc no="51">Set 51</desc>
+  <desc no="52">Set 52</desc>
+  <desc no="53">Set 53</desc>
+  <desc no="54">Set 54</desc>
+  <desc no="55">Set 55</desc>
+  <desc no="56">Set 56</desc>
+  <desc no="57">Set 57</desc>
+  <desc no="58">Set 58</desc>
+  <desc no="59">Set 59</desc>
+  <desc no="60">Set 60</desc>
+  <desc no="61">Set 61</desc>
+ </lesson>
+
+ <article>
+  <e l="en">
+   <nd>a</nd>
+   <ni>the</ni>
+  </e>
+  <e l="fr">
+   <fd>la</fd>
+   <fi>une</fi>
+   <md>le</md>
+   <mi>un</mi>
+  </e>
+ </article>
+
+ <conjugation>
+  <e l="en">
+  </e>
+  <e l="fr">
+   <s1>e</s1>
+   <s2>es</s2>
+   <s3f common="1">e</s3f>
+   <p1>ons</p1>
+   <p2>ez</p2>
+   <p3f common="1">ent</p3f>
+  </e>
+ </conjugation>
+
+ <options>
+  <sort on="1"/>
+ </options>
+
+ <e m="1" t="n:f"><o width="340" l="en" q="o">breakdown</o><t width="341" l="fr" q="t">panne</t></e>
+ <e m="1" t="n:m"><o>breast</o><t>sein</t></e>
+ <e m="1" t="n:m"><o>care</o><t>soin</t></e>
+ <e m="1" t="n:m"><o>compromise</o><t>compromis</t></e>
+ <e m="1" t="n:f"><o>grant</o><t>dotation</t></e>
+ <e m="1" t="n:f"><o>half</o><t>moitié</t></e>
+ <e m="10" t="av"><o y="-">in this way</o><t>ainsi</t></e>
+ <e m="10" t="n:f"><o y="-">investigation</o><t>enquête</t></e>
+ <e m="10" t="n:m"><o y="-">level</o><t>niveau</t></e>
+ <e m="10" t="aj"><o y="-">lightning/dazzling</o><t>fulgurant</t></e>
+ <e m="10" t="n:f"><o y="-">maneuvers</o><t>menées</t></e>
+ <e m="10" t="n:m"><o y="-">maze</o><t>dédale</t></e>
+ <e m="11" t="n:f"><o y="-">mesh</o><t>maillage</t></e>
+ <e m="11" t="n:f"><o y="-">mistake, error</o><t>faute</t></e>
+ <e m="11" t="av"><o y="-">more</o><t>davantage</t></e>
+ <e m="11" t="n:m"><o y="-">mound</o><t>monticule</t></e>
+ <e m="11" t="aj"><o y="-">mute</o><t>muet</t></e>
+ <e m="11" t="n:m"><o y="-">network</o><t>réseau</t></e>
+ <e m="12" t="av"><o y="-">nevertheless</o><t>cependant</t></e>
+ <e m="12" t="ph"><o y="-">one year ago</o><t>il y a un an</t></e>
+ <e m="12" t="n:m"><o y="-">place</o><t>endroit</t></e>
+ <e m="12" t="av"><o>quickly</o><t>vite</t></e>
+ <e m="12" t="aj"><o y="-">ready</o><t>prêt</t></e>
+ <e m="12" t="n:m"><o>vexation</o><t>dépit</t></e>
+ <e m="13" t="n:m"><o y="-">riddle</o><t>crible</t></e>
+ <e m="13" t="n:m"><o y="-">rubble</o><t>gravats</t></e>
+ <e m="13" t="n"><o y="-">section,piece/side</o><t>pan</t></e>
+ <e m="13" t="n:m"><o y="-">semblance</o><t>semblant</t></e>
+ <e m="13" t="n:f"><o y="-">skeleton</o><t>squelette</t></e>
+ <e m="13" t="av"><o y="-">somewhere</o><t>quelque part</t></e>
+ <e m="14" t="n"><o y="-">square (in front of a church)</o><t>parvis</t></e>
+ <e m="14" t="aj"><o y="-">submissive</o><t>soumis</t></e>
+ <e m="14" t="n:m"><o y="-">suspicion</o><t>soupçon</t></e>
+ <e m="14" t="n:f"><o y="-">target</o><t>cible</t></e>
+ <e m="14" t="n:m"><o y="-">thousands</o><t>millier</t></e>
+ <e m="14" t="v"><o>to appear</o><t>apparaître</t></e>
+ <e m="15" t="v"><o y="-">(assembly) to sit</o><t>siéger</t></e>
+ <e m="15" t="n:f"><o y="-">(sport) winger</o><t>ailier</t></e>
+ <e m="15" t="n:f"><o y="-">acknowledgment</o><t>reconnaissance</t></e>
+ <e m="15" t="n:m"><o y="-">act, action</o><t>acte</t></e>
+ <e m="15" t="v"><o>to dent</o><t>cabosser</t></e>
+ <e m="15" t="v"><o>to fear</o><t>redouter</t></e>
+ <e m="16" t="aj"><o y="-">all the more so</o><t>fortiori</t></e>
+ <e m="16" t="av"><o y="-">already</o><t>d'ores et déjà</t></e>
+ <e m="16" t="pre"><o y="-">among</o><t>parmi</t></e>
+ <e m="16" t="n:m"><o>anonymity</o><t>anonymat</t></e>
+ <e m="16" t="av"><o y="-">anywhere</o><t>n'important où</t></e>
+ <e m="16" t="n:f"><o>associate (stooge)</o><t>comparse</t></e>
+ <e m="17" t="av"><o y="-">at bay</o><t>abois</t></e>
+ <e m="17" t="ph"><o>at home</o><t>à dominicale</t></e>
+ <e m="17" t="av"><o y="-">at the edge</o><t>au bord</t></e>
+ <e m="17" t="pre"><o y="-">at the time of</o><t>lors</t></e>
+ <e m="17" t="n:f"><o y="-">beacon</o><t>phare</t></e>
+ <e m="17" t="ph"><o>behind the scenes</o><t>dans les coulisses</t></e>
+ <e m="18" t="av"><o y="-">beyond</o><t>au-delà</t></e>
+ <e m="18" t="n:f"><o y="-">bottle</o><t>bouteille</t></e>
+ <e m="18" t="aj"><o y="-">carcinogenic</o><t>cancérigène</t></e>
+ <e m="18" t="n:m"><o y="-">cash-flow</o><t>chiffre d'affaires</t></e>
+ <e m="18" t="n"><o y="-">cheat</o><t>tricheur/euse</t></e>
+ <e m="18" t="n"><o y="-">conspirator</o><t>conjurer</t></e>
+ <e m="19" t="n:f"><o y="-">contempt, scorn</o><t>mépris(e)</t></e>
+ <e m="19" t="aj"><o y="-">convenient</o><t>commode</t></e>
+ <e m="19" t="aj"><o y="-">criminal</o><t>crapuleux</t></e>
+ <e m="19" t="aj"><o y="-">deep</o><t>profond</t></e>
+ <e m="19" t="n"><o y="-">defective</o><t>débile</t></e>
+ <e m="19" t="n:m"><o>discord</o><t>désaccord</t></e>
+ <e m="2" t="n:f"><o>hand full</o><t>poignée</t></e>
+ <e m="2" t="n"><o>information</o><t>renseignements</t></e>
+ <e m="2" t="n:m"><o>lack</o><t>manque</t></e>
+ <e m="2" t="av"><o>perfectly</o><t>parfaitement</t></e>
+ <e m="2" t="n:f"><o>range</o><t>gamme</t></e>
+ <e m="2" t="v"><o>to enlist</o><t>enrégimenter</t></e>
+ <e m="2" t="v"><o>to insure</o><t>assurer</t></e>
+ <e m="20" t="n"><o y="-">dwarf</o><t>nain</t></e>
+ <e m="20" t="av"><o y="-">elsewhere</o><t>ailleurs</t></e>
+ <e m="20" t="aj"><o y="-">European (pl)</o><t>européenne</t></e>
+ <e m="20" t="pre"><o y="-">except</o><t>hors</t></e>
+ <e m="20" t="aj"><o>fallen</o><t>chuté</t></e>
+ <e m="20" t="ph"><o y="-">first of all</o><t>tout d'abord</t></e>
+ <e m="21" t="n:m"><o y="-">flaming brandy / hotbed of dissent</o><t>brûlot</t></e>
+ <e m="21"><o y="-">for trade</o><t>marchand</t></e>
+ <e m="21" t="aj"><o y="-">foretold</o><t>susdit</t></e>
+ <e m="21" t="n:f"><o y="-">funeral</o><t>obsèques</t></e>
+ <e m="21" t="aj"><o y="-">fuzzy, blurred</o><t>flou</t></e>
+ <e m="21" t="aj"><o y="-">hard, painful</o><t>pénible</t></e>
+ <e m="22" t="aj"><o y="-">harmless</o><t>inoffensif/ive</t></e>
+ <e m="22" t="av"><o>in particular</o><t>notamment</t></e>
+ <e m="22" t="n:f"><o y="-">initiative</o><t>initiative</t></e>
+ <e m="22" t="n:m"><o y="-">interview</o><t>entretien</t></e>
+ <e m="22" t="aj"><o y="-">just for show</o><t>pour la frime</t></e>
+ <e m="22" t="n:m"><o>layoffs</o><t>licenciement</t></e>
+ <e m="23" t="n:f"><o y="-">line</o><t>file</t></e>
+ <e m="23" t="aj"><o y="-">managing</o><t>dirigeant</t></e>
+ <e m="23" t="aj"><o y="-">out of play</o><t>hors jeu</t></e>
+ <e m="23" t="aj"><o y="-">perverse</o><t>vicieux(euse)</t></e>
+ <e m="23" t="n:m"><o y="-">political party</o><t u="pol">parti</t></e>
+ <e m="23" t="aj"><o y="-">predestined</o><t>prédestinait</t></e>
+ <e m="24" t="n:f"><o y="-">pride</o><t>fierté</t></e>
+ <e m="24" t="n:m"><o y="-">proof</o><t>preuve</t></e>
+ <e m="24" t="aj"><o y="-">reliable</o><t>fiable</t></e>
+ <e m="24" t="n:m"><o y="-">reprisal</o><t>rétorsion</t></e>
+ <e m="24" t="aj"><o y="-">riddled with</o><t>criblé(e)</t></e>
+ <e m="24" t="n"><o y="-">rodent</o><t>rogner/euse</t></e>
+ <e m="25" t="n:m"><o>rot</o><t>pourriture</t></e>
+ <e m="25"><o>same</o><t>pareil</t></e>
+ <e m="25" t="pre"><o>save, without</o><t>`hormis</t></e>
+ <e m="25" t="aj"><o y="-">secular</o><t>profane</t></e>
+ <e m="25" t="aj"><o y="-">solid, sturdy</o><t>solide</t></e>
+ <e m="25" t="aj"><o y="-">squared</o><t>quadrillé(e)</t></e>
+ <e m="26" t="n:m"><o y="-">star</o><t u="thea">vedette</t></e>
+ <e m="26" t="n:m"><o>start</o><t>démarrage</t></e>
+ <e m="26" t="n:m"><o y="-">steel</o><t>acier</t></e>
+ <e m="26" t="n:f"><o y="-">streamer</o><t>banderole</t></e>
+ <e m="26" t="n"><o y="-">stuck up person</o><t>bêcheur/euse</t></e>
+ <e m="26" t="n:m"><o y="-">substitute</o><t>remplaçant</t></e>
+ <e m="27" t="n:f"><o y="-">suburbs</o><t>banlieue</t></e>
+ <e m="27" t="aj"><o y="-">such</o><t>tel(le)</t></e>
+ <e m="27" t="n:m"><o y="-">supplier</o><t>fournisseur</t></e>
+ <e m="27" t="aj"><o y="-">swollen</o><t>gonflé</t></e>
+ <e m="27" t="n:m"><o y="-">takeoff</o><t>décollage</t></e>
+ <e m="27" t="aj"><o y="-">tame, tamed</o><t>apprivoise(e)</t></e>
+ <e m="28" t="n:f"><o>tear</o><t>larme</t></e>
+ <e m="28" t="n:m"><o y="-">television</o><t>petit écran</t></e>
+ <e m="28" t="n:m"><o>the following day</o><t>lendemain</t></e>
+ <e m="28" t="n:m"><o>the leader</o><t>dirigeant</t></e>
+ <e m="28" t="n:f"><o y="-">the smallpox</o><t>variole</t></e>
+ <e m="28" t="ph"><o y="-">this one</o><t>celle-ci</t></e>
+ <e m="29" t="v"><o y="-">to absorb, to compare</o><t>assimiler</t></e>
+ <e m="29" t="v"><o y="-">to advocate</o><t>préconiser</t></e>
+ <e m="29" t="v"><o y="-">to agree with</o><t>approuver</t></e>
+ <e m="29" t="v"><o y="-">to aim</o><t>viser</t></e>
+ <e m="29" t="v"><o y="-">to append</o><t>ajouter</t></e>
+ <e m="29" t="v"><o y="-">to back up</o><t>épauler</t></e>
+ <e m="3" t="aj"><o>around (in time)</o><t>vers</t></e>
+ <e m="3" t="n:f"><o y="-">banner</o><t>bannière</t></e>
+ <e m="3" t="aj"><o y="-">bound by</o><t>liées</t></e>
+ <e m="3" t="n:f"><o y="-">competitor/competition</o><t>concurrent</t></e>
+ <e m="3" t="v"><o>to interpret</o><t>interpréter</t></e>
+ <e m="3" t="v"><o>to master</o><t>maîtriser</t></e>
+ <e m="3" t="v"><o>to thunder forth</o><t>fulminer</t></e>
+ <e m="30" t="v"><o y="-">to be called on the carpet</o><t>être sur la sellette</t></e>
+ <e m="30" t="v"><o y="-">to be ironic</o><t>ironiser</t></e>
+ <e m="30" t="v"><o y="-">to be scared stiff</o><t>avoir la trouille</t></e>
+ <e m="30" t="v"><o y="-">to become more expensive</o><t>renchérir</t></e>
+ <e m="30" t="v"><o y="-">to blow one's nose</o><t>se moucher</t></e>
+ <e m="30" t="v"><o y="-">to booby-trap</o><t>piéger</t></e>
+ <e m="31" t="v:re"><o y="-">to borrow</o><t>emprunter</t></e>
+ <e m="31" t="v"><o y="-">to break off</o><t>rompre</t></e>
+ <e m="31" t="v"><o y="-">to bump into</o><t>buter</t></e>
+ <e m="31" t="v"><o y="-">to burst, to break out</o><t>éclater</t></e>
+ <e m="31" t="v"><o y="-">to buy up</o><t>racheter</t></e>
+ <e m="31" t="v"><o y="-">to buzz off</o><t>se casser</t></e>
+ <e m="32" t="v"><o y="-">to call to mind</o><t>évoquer</t></e>
+ <e m="32" t="v:re"><o>to cast off</o><t>appareiller</t></e>
+ <e m="32" t="v"><o y="-">to change one's mind</o><t>se raviser</t></e>
+ <e m="32" t="v"><o y="-">to clarify</o><t>préciser</t></e>
+ <e m="32" t="v"><o y="-">to clear</o><t>débarrasser</t></e>
+ <e m="32" t="v"><o y="-">to contemplate</o><t>envisager</t></e>
+ <e m="33" t="v:re"><o y="-">to convey</o><t>acheminer</t></e>
+ <e m="33" t="v"><o y="-">to crumble</o><t>émietter</t></e>
+ <e m="33" t="v"><o y="-">to crush</o><t>écraser</t></e>
+ <e m="33" t="v"><o y="-">to decline, to give up</o><t>récuser</t></e>
+ <e m="33" t="v"><o y="-">to disarm</o><t>désamorcer</t></e>
+ <e m="33" t="v"><o y="-">to draw (from)</o><t>puiser</t></e>
+ <e m="34" t="v"><o y="-">to drop</o><t>larguer</t></e>
+ <e m="34" t="v"><o y="-">to exhaust</o><t>épuiser</t></e>
+ <e m="34" t="v"><o y="-">to fall</o><t>choir</t></e>
+ <e m="34" t="v"><o y="-">to fear</o><t>craindre</t></e>
+ <e m="34" t="v"><o y="-">to feel dizzy</o><t>avoir le tournis</t></e>
+ <e m="34" t="v"><o y="-">to fill, to satisfy</o><t>combler</t></e>
+ <e m="35" t="v"><o y="-">to give overwhelming support to</o><t>plébisciter</t></e>
+ <e m="35" t="v"><o y="-">to give up</o><t>céder</t></e>
+ <e m="35" t="v:ir"><o y="-">to go out again</o><t>ressortir</t></e>
+ <e m="35" t="v"><o y="-">to goof up</o><t>gaffer</t></e>
+ <e m="35" t="v"><o y="-">to graft</o><t>greffer</t></e>
+ <e m="35" t="v"><o y="-">to grant</o><t>accorder</t></e>
+ <e m="36" t="v"><o y="-">to have a good laugh</o><t>se marrer</t></e>
+ <e m="36" t="v"><o y="-">to hinder, hamper</o><t>entraver</t></e>
+ <e m="36" t="v"><o y="-">to increase</o><t>s'accroître</t></e>
+ <e m="36" t="v"><o y="-">to invest</o><t>investir</t></e>
+ <e m="36" t="v"><o y="-">to issue</o><t>lancer</t></e>
+ <e m="36" t="v"><o y="-">to lead</o><t>mener</t></e>
+ <e m="37" t="v"><o y="-">to leak</o><t>couler</t></e>
+ <e m="37" t="v"><o y="-">to lisp</o><t>zézayer</t></e>
+ <e m="37" t="v"><o y="-">to make dizzy</o><t>donner le tournis</t></e>
+ <e m="37" t="v"><o y="-">to manage</o><t>se débrouiller</t></e>
+ <e m="37" t="v"><o y="-">to march past</o><t>défiler</t></e>
+ <e m="37" t="v"><o y="-">to offer</o><t>offrir</t></e>
+ <e m="38" t="v"><o y="-">to pick someone up</o><t>draguer</t></e>
+ <e m="38" t="v"><o y="-">to play for time</o><t>temporiser</t></e>
+ <e m="38" t="v"><o y="-">to poison</o><t>empoisonner</t></e>
+ <e m="38" t="v"><o y="-">to reach</o><t>parvenir</t></e>
+ <e m="38" t="v"><o y="-">to regulate</o><t>régler</t></e>
+ <e m="38" t="v"><o y="-">to remove, to take off</o><t>enlever</t></e>
+ <e m="39" t="v"><o y="-">to replace</o><t>remplacer</t></e>
+ <e m="39" t="v:re"><o y="-">to reveal</o><t>révéler</t></e>
+ <e m="39" t="v"><o y="-">to seem, appear</o><t>paraître</t></e>
+ <e m="39" t="v"><o y="-">to set, to place</o><t>situer</t></e>
+ <e m="39" t="v:re"><o>to spot</o><t>repérer</t></e>
+ <e m="4" t="n:m"><o>debris</o><t>décombres</t></e>
+ <e m="4" t="n:m"><o y="-">deposit</o><t>consigne</t></e>
+ <e m="4" t="n:m"><o y="-">event</o><t>événement</t></e>
+ <e m="4" t="aj"><o y="-">founded</o><t>fondé</t></e>
+ <e m="4" t="n:m"><o y="-">helmet</o><t>casque</t></e>
+ <e m="4" t="pre"><o>in spite of</o><t>malgré</t></e>
+ <e m="40" t="v"><o y="-">to stamp out</o><t>piétiner</t></e>
+ <e m="40" t="v"><o y="-">to stand up again</o><t>relever</t></e>
+ <e m="40" t="v"><o y="-">to stand up against</o><t>relever</t></e>
+ <e m="40" t="v"><o y="-">to start/to damage</o><t>entamer</t></e>
+ <e m="40" t="v"><o y="-">to strike off</o><t>radier</t></e>
+ <e m="40" t="v"><o y="-">to succeed</o><t>aboutir</t></e>
+ <e m="41" t="v"><o y="-">to sulk/to turn one's nose up at</o><t>bouder</t></e>
+ <e m="41" t="v"><o y="-">to supply</o><t>fournir</t></e>
+ <e m="41" t="v"><o y="-">to support</o><t>soutenir</t></e>
+ <e m="41" t="v"><o y="-">to swallow up</o><t>engouffrer</t></e>
+ <e m="41" t="v"><o y="-">to tar</o><t>goudronner</t></e>
+ <e m="41" t="v"><o y="-">to tend</o><t>être porté(e)</t></e>
+ <e m="42" t="v"><o y="-">to thunder</o><t>tonner</t></e>
+ <e m="42" t="v:re"><o y="-">to track down</o><t>traquer</t></e>
+ <e m="42" t="v"><o y="-">to turn (over)</o><t>retourner</t></e>
+ <e m="42" t="v"><o y="-">to untangle</o><t>débrouiller</t></e>
+ <e m="42" t="v"><o y="-">to watch out</o><t>faire gaffe</t></e>
+ <e m="42" t="v"><o y="-">to wear out</o><t>user</t></e>
+ <e m="43" t="aj"><o y="-">unhealthy</o><t>malsain(e)</t></e>
+ <e m="43" t="n:m"><o y="-">union</o><t>syndicat</t></e>
+ <e m="43" t="n:f"><o y="-">waste, loss</o><t>perte</t></e>
+ <e m="43" t="n"><o>wheat</o><t>blé</t></e>
+ <e m="43" t="n"><o>willy</o><t>zizi</t></e>
+ <e m="43" t="ph"><o y="-">with whatever comes to hand</o><t>avec les moyens</t></e>
+ <e m="44" t="v"><o y="-">to belong</o><t>appartenir</t></e>
+ <e m="44" t="v"><o>to criticize</o><t>critiquer</t></e>
+ <e m="44" t="v:re"><o>to hold for ransom</o><t>rançonner</t></e>
+ <e m="44" t="v"><o>to pretend</o><t>faire semblant</t></e>
+ <e m="44" t="v"><o>to retain</o><t>conserver</t></e>
+ <e m="44" t="av"><o y="-">without flinching</o><t>sans broncher</t></e>
+ <e m="45" t="v"><o>to promise</o><t>promettre</t></e>
+ <e m="45" t="v"><o>to recede</o><t>reculer</t></e>
+ <e m="45" t="v"><o>to rip apart</o><t>éventrer</t></e>
+ <e m="45" t="v"><o>to stab</o><t>poignarder</t></e>
+ <e m="45" t="v"><o y="-">to testify</o><t>témoigner</t></e>
+ <e m="45" t="n"><o y="-">translator</o><t>traducteur</t></e>
+ <e m="46" t="n:m"><o>film</o><t>septième art</t></e>
+ <e m="46" t="n:m"><o>movie director</o><t>réalisateur</t></e>
+ <e m="46" t="v:re"><o>to establish</o><t>consacrer</t></e>
+ <e m="46" t="n:f"><o y="-">undergrowth</o><t>broussailles</t></e>
+ <e m="46" t="aj"><o y="-">unusual</o><t>inhabituelle</t></e>
+ <e m="46" t="aj"><o y="-">useless</o><t>inutile</t></e>
+ <e m="47" t="n:m"><o>faucet</o><t>robinet</t></e>
+ <e m="47" t="n:m"><o>poll</o><t>sondage</t></e>
+ <e m="47" t="n:m"><o>section</o><t>tançons</t></e>
+ <e m="47" t="n:f"><o>the living proof</o><t>preuve vivant</t></e>
+ <e m="47" t="v:re"><o>to exercise</o><t>exercer</t></e>
+ <e m="47" t="v:re"><o>to tell</o><t>raconter</t></e>
+ <e m="48" t="n:m"><o>an endorsement</o><t>aval</t></e>
+ <e m="48" t="n:m"><o>ball (and chain)</o><t>boulet</t></e>
+ <e m="48" t="n:m"><o>breach, a gap</o><t>brèche</t></e>
+ <e m="48" t="n:f"><o>quest</o><t>quête</t></e>
+ <e m="48"><o>reduced</o><t>réduit</t></e>
+ <e m="48" t="v"><o>to withdraw</o><t>retirer</t></e>
+ <e m="49" t="n:m"><o>bash (party)</o><t>boum</t></e>
+ <e m="49" t="n:f"><o>fly</o><t>mouche</t></e>
+ <e m="49" t="n:f"><o>skill, mastery</o><t>maîtrise</t></e>
+ <e m="49" t="n:f"><o>stump</o><t>souche</t></e>
+ <e m="49" t="n:m"><o>underwear</o><t>slip</t></e>
+ <e m="49" t="n:m"><o>worm</o><t>ver</t></e>
+ <e m="5" t="n:m"><o y="-">side</o><t>côté</t></e>
+ <e m="5" t="aj"><o y="-">starry</o><t>étoilé</t></e>
+ <e m="5" t="n:m"><o y="-">test/sporting event</o><t>épreuve</t></e>
+ <e m="5" t="v"><o>to avoid</o><t>éviter</t></e>
+ <e m="5" t="v"><o>to become</o><t>devenir</t></e>
+ <e m="5" t="v"><o>to bind</o><t>lier</t></e>
+ <e m="50" t="n:m"><o>afternoon tea</o><t>goûter</t></e>
+ <e m="50" t="n:m"><o>bra</o><t>sou-tif</t></e>
+ <e m="50" t="n:m"><o>bull</o><t>taureau</t></e>
+ <e m="50" t="n:m"><o>covered playground</o><t>préau</t></e>
+ <e m="50" t="n:f"><o>shower or burst</o><t>gerbe</t></e>
+ <e m="50" t="n:f"><o>the snot</o><t>morve</t></e>
+ <e m="51" t="n:f"><o>decade</o><t>décennie</t></e>
+ <e m="51" t="n:m"><o>guinea pig</o><t>cobaye</t></e>
+ <e m="51" t="n:f"><o>limit</o><t>limite</t></e>
+ <e m="51" t="n:m"><o>mammal</o><t>mammifère</t></e>
+ <e m="51" t="n:f"><o>residence</o><t>demeure</t></e>
+ <e m="51" t="n:m"><o>the scrub, the underground</o><t>maquis</t></e>
+ <e m="52" t="n:m"><o>an agitation</o><t>émoi</t></e>
+ <e m="52" t="n:m"><o>sheep</o><t>mouton</t></e>
+ <e m="52" t="n:m"><o>the hair</o><t>poil</t></e>
+ <e m="52" t="n:m"><o>the repercussion</o><t>retentissement</t></e>
+ <e m="52" t="n:m"><o>the testimony</o><t>témoignage</t></e>
+ <e m="52" t="n:f"><o>the wool</o><t>laine</t></e>
+ <e m="53" t="n:m"><o>balance sheet</o><t>bilan</t></e>
+ <e m="53" t="n:f"><o>fear</o><t>crainte</t></e>
+ <e m="53" t="n:m"><o>misdemeanor</o><t>méfait</t></e>
+ <e m="53" t="n:m"><o>quartet</o><t>quatuor</t></e>
+ <e m="53" t="n:f"><o>stage (stopping place)</o><t>étape</t></e>
+ <e m="53" t="n:f"><o>the width</o><t>largeur</t></e>
+ <e m="54" t="n:m"><o>bucket</o><t>seau</t></e>
+ <e m="54" t="n:m"><o>diamond</o><t>diamant</t></e>
+ <e m="54" t="n:m"><o>goat</o><t>bouc</t></e>
+ <e m="54" t="n:m"><o>machine gunner</o><t>mitrailleur</t></e>
+ <e m="54" t="n:m"><o>sealing off</o><t>bouclage</t></e>
+ <e m="54" t="n:m"><o>serial</o><t>feuilleton</t></e>
+ <e m="55"><o>(admiration) to arouse</o><t>susciter</t></e>
+ <e m="55" t="n:f"><o>mute</o><t>sourdine</t></e>
+ <e m="55" t="n:m"><o>rifle, gun</o><t>fusil</t></e>
+ <e m="55" t="n:m"><o>skull</o><t>crâne</t></e>
+ <e m="55" t="av"><o>softly/quietly</o><t>en sourdine</t></e>
+ <e m="55" t="n:m"><o>welcome</o><t>accueil</t></e>
+ <e m="56" t="n:f"><o>an explosion</o><t>déflagration</t></e>
+ <e m="56" t="n:f"><o>demand</o><t>exigence</t></e>
+ <e m="56" t="n:m"><o>shelter</o><t>abri</t></e>
+ <e m="56"><o>species (of plant)</o><t>race</t></e>
+ <e m="56" t="n:m"><o>worry</o><t>souci</t></e>
+ <e m="57" t="v:re"><o>(tires) to screech</o><t>crisser</t></e>
+ <e m="57" t="n:m"><o>the scrap</o><t>déchet</t></e>
+ <e m="57" t="v:re"><o>to argue</o><t>discuter</t></e>
+ <e m="57" t="v:re"><o>to bet</o><t>parier</t></e>
+ <e m="57" t="v:re"><o>to bother</o><t>gêner</t></e>
+ <e m="57" t="v:re"><o>to catch</o><t>attraper</t></e>
+ <e m="58" t="n:m"><o>an exhaust pipe</o><t>pot d'échappement</t></e>
+ <e m="58" t="n:m"><o>doormat</o><t>paillasson</t></e>
+ <e m="58" t="n:f"><o>gate</o><t>grille</t></e>
+ <e m="58" t="n:f"><o>handful</o><t>poignée</t></e>
+ <e m="58" t="n:m"><o>skid</o><t>dérapage</t></e>
+ <e m="58" t="v"><o>to amaze, to impress</o><t>épater</t></e>
+ <e m="59" t="n:m"><o>(stairs) a landing</o><t>palier</t></e>
+ <e m="59" t="n:f"><o>search, a hunt</o><t>battu</t></e>
+ <e m="59" t="n:m"><o>the goal</o><t>but</t></e>
+ <e m="59" t="n:f"><o>the lawn</o><t>pelouse</t></e>
+ <e m="59" t="v:re"><o>to fail to go off</o><t>rater</t></e>
+ <e m="59" t="v:re"><o>to stumble, to trip</o><t>trébucher</t></e>
+ <e m="6" t="n:f"><o y="-">(administrative) channel</o><t x="passer par la ~ : to go through the (administrative) channels&nl;suivre la ~ : to work one's way up (through a hierarchy)">filière</t></e>
+ <e m="6" t="n"><o u="pol">a survey</o><t u="pol">sondage</t></e>
+ <e m="6" t="v"><o>to express</o><t>exprimer</t></e>
+ <e m="6" t="v"><o>to moderate</o><t>modérer</t></e>
+ <e m="6" t="v"><o>to seem</o><t>sembler</t></e>
+ <e m="6" t="v"><o>to wish</o><t>souhaiter</t></e>
+ <e m="60" t="n:f"><o>fertility</o><t>fécundité</t></e>
+ <e m="60" t="n:m"><o>make-up</o><t>maquillage</t></e>
+ <e m="60" t="n:m"><o>striping, scouring</o><t>décapage</t></e>
+ <e m="60" t="v:re"><o>to cheat</o><t>tricher</t></e>
+ <e m="60" t="v:re"><o>to erase, to rub out</o><t>effacer</t></e>
+ <e m="60" t="v:re"><o>to grip or hold tight</o><t>serrer</t></e>
+ <e m="61" t="pre"><o y="-">according to</o><t>selon</t></e>
+ <e m="61" t="n:f"><o>rage / fury</o><t>rage</t></e>
+ <e m="61" t="n:m"><o>thread</o><t>fil</t></e>
+ <e m="61" t="v:re"><o y="-">to dedicate / to devote</o><t>vouer</t></e>
+ <e m="61" t="v:re"><o>to make milder / to sweeten</o><t>adoucir</t></e>
+ <e m="61" t="v:re"><o>to weigh</o><t>peser</t></e>
+ <e m="7" t="av"><o>appreciably</o><t>sensiblement</t></e>
+ <e m="7" t="n:f"><o y="-">auto body work</o><t u="mot">carrosserie</t></e>
+ <e m="7" t="n:f"><o y="-">battle</o><t>bataille</t></e>
+ <e m="7" t="av"><o>beyond</o><t>au delà de</t></e>
+ <e m="7" t="n:m"><o y="-">blood</o><t>sang</t></e>
+ <e m="7" t="n:f"><o y="-">bullet</o><t>balle</t></e>
+ <e m="8" t="n:f"><o y="-">burst</o><t>rafale</t></e>
+ <e m="8" t="n:m"><o>charcoal</o><t>charbon</t></e>
+ <e m="8" t="n:f"><o y="-">connections</o><t>connexions</t></e>
+ <e m="8" t="n:m"><o y="-">contempt</o><t>mépris</t></e>
+ <e m="8" t="aj"><o>deceased</o><t>décèdé</t></e>
+ <e m="8" t="n:m"><o y="-">diversion</o><t>détournement</t></e>
+ <e m="9" t="aj"><o y="-">empty-handed</o><t>bredouille</t></e>
+ <e m="9" t="n:f"><o>flaw</o><t>faille</t></e>
+ <e m="9" t="ph"><o y="-">for the time being</o><t>pour l'heure</t></e>
+ <e m="9" t="n:m"><o>goal</o><t>but</t></e>
+ <e m="9" t="n:m"><o>ground floor</o><t>rez-de-chaussée</t></e>
+ <e m="9" t="ph"><o y="-">in the midst of</o><t>au sein de</t></e>
+</kvtml>
+
+<!--
+This is a machine generated file.
+Be careful when editing here.
+
+Short definition:
+
+lesson       lesson group
+ desc        name
+   %no       its index
+   %query    is in query selection
+   %current  is current lesson
+type         type group
+ desc        name
+   %no       its index
+e            entry of dictionary
+  %s         is selected
+  %m         lesson member
+  %t         common expression type
+ o           original
+   %q        in query ("o" is given, "t" is wanted)
+   %l        language code
+   %r        remark
+   %p        pronunciation
+   %width    column width
+   %t        expression type (see QueryManager.h)
+   %tf       false friend from
+   %ff       false friend to
+   %a        antonym
+   %y        synonym
+   %x        example
+   %u        usage label
+   %h        paraphrase
+ t           translation ..
+   %q        in query ("t" is given, "o" is wanted)
+   %l        language code
+   %r        remark
+   %p        pronunciation
+   %width    column width
+   %t        expression type
+   %tf       false friend from
+   %ff       false friend to
+   %a        antonym
+   %y        synonym
+   %x        example
+   %u        usage label
+   %h        paraphrase
+
+   %d        last query date (from;to)
+   %w        dito, compressed and deprecated
+   %g        grade (from;to)
+   %c        count (from;to)
+   %b        bad count (from;to)
+
+
+Valid xml means:
+ - Close all tags
+ - Keep proper hierarchy
+ - All attributes are quoted
+-->
+

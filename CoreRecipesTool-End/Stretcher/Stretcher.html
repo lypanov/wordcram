@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+<style type="text/css">
+	@import "Tudget.css";
+</style>
+
+<script type='text/javascript' src='Stretcher.js'></script>
+<script type='text/javascript' src='Tudget.js'></script>
+<script type='text/javascript' src='AppleClasses/AppleButton.js' charset='utf-8'/>
+<script type='text/javascript' src='AppleClasses/AppleInfoButton.js' charset='utf-8'/>
+<script type='text/javascript' src='AppleClasses/AppleAnimator.js' charset='utf-8'/>
+</head>
+
+<body onload="loaded(event)" onkeypress="keyeventhandler(event)">
+	<div id='front'>
+			<div id="audio"></div>
+			<div class='topEdge'></div>
+			<div class='bottomEdge'></div>
+			<div class='centerArea'>
+				<div id='infoButton'></div>
+				<span id='ctrText'>
+					Foo
+				</span>
+				<span class='ctrTitleClass' id='ctrTitle'>Welcome to<br/>Tudget</span>
+				<a href="#" id="restart" onclick='restart()'/>
+					Restart
+				</a>
+				<img src="unhappy.png" class="action-button" id="crying" onclick='next(-1)'/>
+				<img src="worried.png" class="action-button" id="worried" onclick='next(0)'/>
+				<img src="happy.png" class="action-button" id="happy" onclick='next(1)'/>
+			</div>
+	</div>
+
+	<div id='back'>
+			<div class='topEdge'></div>
+			<div class='bottomEdge'></div>
+			<div class='centerArea'>
+				<select id="testSelect">
+				</select>
+				<div id="doneButton"></div>
+			</div>
+	</div>
+		
+	<div id='debugDiv'></div>
+</body>
+
+</html>

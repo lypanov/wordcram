@@ -1,0 +1,48 @@
+Read COPYING, as this program is under it :)
+
+This program does interesting things that you can read about it <THENREADME>
+when i get around to doing it...
+
+At the moment the only language available is dutch, as thats the one i'm 
+studying currently. I'll hopefully add spanish, french and german as soon as i
+get the required resources...
+
+Directory structure:
+
+	src/									source + object files
+		JVocabTrainer/					java version
+			JVocabTrainer.java		console version (complete)
+			VocabTrainerApplet.*		appletized version (unworking)
+		gVocabTrainer/					pygnome version (incomplete)
+	common/								langauge data files
+		nl/								dutch language files
+	user/									user data
+
+Credits to the bloke who did the orginal html dictionary on which <nl/basic>
+is based.
+
+To compile move to <src> and type:
+	javac JVocabTrainer.java
+then execute it:
+	java JVocabTrainer <filename>
+
+Copy the language directory you require from <common> into <user>.
+Then exec JVocabTrainer with the wanted file from <user>.
+This will keep a current version in that file rather than the original file.
+
+As well as the built-in lessons, you can make your own stuff up and send it 
+to me to include in the next distribution ;)
+
+Send any comments and patches to {bueno@beer.com} or {kelletta@usa.net} if 
+that doesn't work...
+
+Alex
+
+-- 
+
+ /-===============================-o-=========================-\
+| Alexander Kellett         __     |  "You're not drunk if you  |
+|   <bueno@beer.com>     __( o)>   |   can lie on the floor     |
+| "Hmmmmm....Beer"       \ <_. )   |   without holding on."     |
+|   - Homer Simpson       `---'    |  - Dean Martin             |
+ \-===============================-o-=========================-/

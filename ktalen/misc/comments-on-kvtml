@@ -1,0 +1,8 @@
+the description at the top of the file is pointless. why not have it at the bottom??? - DONE
+the wierd numbers present in the files seem completely pointless, width, lines, for example, whats the point of those??? - DONE
+number of columns makes sense though. this though is just really a way of formalizing the comma'd lists of verb conjugations for example
+however, the columns are pretty pointless on second thought, as u really want it to be dynamic in any case. so lets remove that - DONE
+there are *wayyy* too many sets in the file. each set should have around 25 words or so. sets are seriously the wrong way of
+going about it therefore. and rather than that sets should be split up into two more useful metadata elements: topic groupings and difficulty ratings
+the xml format is far from self documenting, this is bad bad bad
+some elements of the t field in e are not even documented!, "re" being just a simple example

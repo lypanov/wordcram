@@ -1,0 +1,228 @@
+@@ -79,7 +154,6 @@
+ Zn|son
+ a'gent|policeman
+ aan 't doel beantwoorden|serve the purpose
+-aan de lopende band geproduceerd|mass-produced
+ aan de lopende band|incessantly
+ aan de praat raken|begin a conversation
+ aan de slag gaan|get going
+@@ -223,7 +297,7 @@
+ bij mogelijke moeilijkheden|in case of difficulties
+ bij nadere beschouwing|on further consideration
+ bij partijen verkopen|sell in lots
+-bij tijd en wijle|off and on
++bij tijd en wijle(?)|off and on
+ bij wijze van spreken|in a manner of speaking
+ bij wijze van uitzondering|by way of exception
+ bijeengeraapt zootje|ill-assorted collection
+@@ -480,6 +554,7 @@
+ dienstbode|maid/servant
+ dienst|service
+ diens|that one's
++dikwijls(spreektaal)|often(spreektaal)
+ dik|thick
+ dinsdag|tuesday
+ directeur|manager
+@@ -632,7 +707,6 @@
+ erg|very much
+ ernstig opnemen|to take seriously
+ ernstig|serious
+-eromheen|roundabout
+ erop los kopen|to buy left, right and centre
+ erop los schieten|to blaze away
+ ertegenover|on the contrary
+@@ -646,7 +720,7 @@
+ fir'mant|partner
+ firma|firm
+ fles|bottle
+-flink|capable(typist)
++flink|capable(bijvoorlbeeld: typist)
+ fruit|vrucht
+ ga je 'gang|go ahead/do so!
+ ga vooral|by all means, go
+@@ -695,8 +769,8 @@
+ genoegen|pleasure
+ genoeg|enough
+ geregeld|regulary
++geschieden (huh?)|to happen (huh?)
+ geschiedenis|history
+-geschieden|to happen
+ gestolen goederen achterhalen|to recover/retrieve stolen goods
+ getal|number
+ getuigen van goede/slechte smaak|be in good/bad taste
+@@ -705,7 +779,6 @@
+ geweldig|tremendous(ly)
+ gewend aan|accustomed to
+ gewone breuk|vulgar fraction
+-gewone pas|quick march
+ gewoon zijn|to be in the habit of
+ gewoonlijk|usually
+ gewoonte|custom/habit/usage
+@@ -823,7 +896,7 @@
+ het gebouw|building
+ het gedicht|poem
+ het geeft niets|it doesn't matter at all
+-het gegeven|data/given/spec
++het gegevens|data/given/spec
+ het geheugen|memory
+ het gemis|lack/want
+ het gerucht ging rond|rumour had it
+@@ -837,6 +910,7 @@
+ het gezelschap|company
+ het ging gesmeerd|it went swimmingly
+ het hagelt|it is hailing
++het hardst|the hardest
+ het heeft mij diep geraakt|it touched me deeply
+ het hele bos gaat eraan|the entire forest is going to be destroyed
+ het heugt me|i remember
+@@ -896,7 +970,6 @@
+ het teken|indication/sign/signal/symptom/token
+ het tele'gram|telegram
+ het theelepeltje|tea spoon
+-het tijdelijke met het eeuwige verwisselen|to depart this life
+ het tocht|there is a draught
+ het toeval wilde dat|it so happened that
+ het toeval|accident/chance/an epileptic fit/seizure
+@@ -1008,7 +1081,7 @@
+ iemand te vlug af zijn|be too quick for a person
+ iemand tot andere gedachten brengen|to make someone change his mind
+ iemand voor een feit stellen|to confront someone with a fact
+-iemand voor honderd gulden|to swindle/do someone out of a hundred guilders
++iemand voor honderd gulden (huh?)|to swindle/do someone out of a hundred guilders
+ iemand voorbijgaan|pass someone
+ iemand wippen|to topple someone
+ iemand zijn straf doen ondergaan|bring someone to justice
+@@ -1111,7 +1184,7 @@
+ juist|exactly/right
+ juli|july
+ jullie/je/U|you(3)
+-kameel|care
++kameel (huh?)|care (huh?)
+ kammen|to comb
+ kannetje(stem)|jug(dim.)
+ kantje|lace edging
+@@ -1143,7 +1216,7 @@
+ kluiven|gnaw at/pick (a bone)
+ knechten|to enslave
+ knecht|man/servant
+-knippen|to cute with scissors
++knippen|to cut with scissors
+ koe/koeien(2)|cow/cows(2)
+ koeien/zeee:n/kniee:n|cows/seas/knees
+ koffer|suitcase
+@@ -1172,7 +1245,6 @@
+ kwast|brush/knot/lemon-squash/prig/smart alec/tassel
+ laag|low
+ laan|avenue
+-laat haar dat maar eventjes doen|just let her do that
+ laat hem maar schuiven|he knows what's what
+ laatje(stem)|la(dim.)
+ laatst|last
+@@ -1351,7 +1423,6 @@
+ nu(expr.)|well(expr.)
+ nut|usefulness
+ officier|officer
+-often(spreektaal)|dikwijls
+ oh, op zo'n manier|ah, I see what you mean
+ olifant|elephant
+ om de hoek|round the corner
+@@ -1452,7 +1523,7 @@
+ paraplu|umbrella
+ parijs|paris
+ pas op|take care
+-past participle|voltooid verleden tijd
++past participle (the words)|voltooid verleden tijd
+ pas|just/pass/passport/step/pace/fit
+ pas|not until
+ pats|wham
+@@ -1485,9 +1556,7 @@
+ potlood|pencil
+ pre'cies op|particalar about
+ precies|exactly
+-present perfect|al/reeds
+ president/presidente|{male/female} president
+-pret hebben om/over|be amused at
+ pret maken|to have a great time
+ prettig|pleasant/nice
+ pret|fun/pleasure
+@@ -1688,11 +1757,11 @@
+ ten teken van|in token of
+ ten'toonstelling|exhibition
+ tennissen|to play tennis
++tense: present perfect|al/reeds
+ ter gedachtenis van|in memory of
+ terwijl|as/whereas/while
+ teuten|to dawdle
+ the books/the book|de boeken/het boek
+-the hardest|het hardst
+ thee zetten|to make tea
+ theorie|theory
+ thuisbrengen|to see (iemand) home
+@@ -1703,7 +1772,7 @@
+ tillen|do/lift/raise/swindle
+ timmer'lieden niet timmer'man|carpenter
+ toch|after all/all the same/for all that/still/yet
+-toe ga nu|do go now
++toe ga nu (emphatic)|do go now
+ toestel|apparatus
+ toe|closed/shut
+ tokkelen|to pluck/strum
+@@ -1783,11 +1852,11 @@
+ ver/verder/verst|far/futher/furthest
+ veranderen|to change
+ verbazen|to astonish
+-verbieden|to forbid
++verbieden (ak - niet verboden??)|to forbid
+ verder|further
+ verdienen|to deserve/earn
+ verdwaald|to lose one's way
+-verdwijnen|to deiappear
++verdwijnen|to desiappear
+ verdwijnen|to disappear
+ vereniging|association/club/combination/society/union
+ verge'zellen|to accompany
+@@ -1818,7 +1887,7 @@
+ vertrouwen|to trust
+ vervangend werk aanbieden|to offer alternative employment
+ vervangen|replace/substitute/supersede
+-verven|to paint?
++verven|to paint
+ vervloeken|to curse (iemand)
+ verwachten|to expect/to wait for
+ verwend nest|spoilt brat
+@@ -1849,8 +1918,8 @@
+ volledig|complete/full
+ voltooien|to complete/finish
+ voltooiing|completion
+-vol|full
+ vol|full/filled
++vol|full
+ vooltoid|complete
+ voor 't overige|for the rest
+ voor de gezelligheid|for company
+@@ -1879,7 +1948,7 @@
+ voorlopig|a while/some time/provisionally/for the time being
+ voorlopig|provisional/temporary
+ voorlopig|provisional/temporary
+-voortuitbetalen|to pay in advance
++vooruitbetalen|to pay in advance
+ vooruit|beforehand/forward/in advance
+ voorzeggen|to prompt
+ voorzitter/voorzitster|{male/female} chairman
+@@ -1907,7 +1976,6 @@
+ waarheid|truth
+ waarschijnlijkheid|likelihood/probability
+ waarschijnlijk|likely/probable
+-waarschijnlijk|probably
+ waarschuwen|to warn
+ waf,waf|woof,woof
+ wakker maken|to wake
+@@ -1991,7 +2059,7 @@
+ zich verbazen|to be suprised
+ zich vergissen(2)|to be wrong/to make a mistake
+ zich verheugen|to look forward
+-zich verslapen|to oversleep oneself
++zich verslapen|to oversleep
+ zich ziek melden|report sick
+ zichtbaar aangedaan zijn|be visibly affected
+ zichtbaar|noticeable/perceptible/visible

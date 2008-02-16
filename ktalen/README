@@ -1,0 +1,14 @@
+Run the program as follows:
+   cd <the directory into which you installed>
+   ./talen.rb lessons/les.aa
+
+An idea is to install it into your home directory
+then add a "alias" to your .bashrc file, 
+
+   alias 'nl $HOME/nl/talen.rb $HOME/nl/lessons/les.aa'
+
+Where "less.aa" is your current lesson.
+When your think your good enough at a given
+file you can simply move to using the "ab" lesson.
+
+Alexander Kellett
