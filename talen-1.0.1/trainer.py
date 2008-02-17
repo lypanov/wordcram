@@ -17,11 +17,7 @@
 # the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 # Boston, MA 02111-1307, USA.
 
-import sys,string,re,random,curses
-import codecs
-
-import locale
-locale.setlocale( locale.LC_ALL, "" )
+import sys,string,re,whrandom,curses
 
 SIZE = 30
 outOfElements = 'outOfElements'
@@ -31,12 +27,12 @@ class Entry:
    entry_re = re.compile(r"^(?P<_1>[^|]*)\|(?P<_2>[^|]*)(\|(?P<_3>[^|]*))?$")
 
    def __init__(self, one, two=None, retention=None):
-      self.dir = random.randint(0,1)
+      self.dir = whrandom.randint(0,1)
       self.dir = 1
       if two==None:
          match = self.entry_re.match(one)
          retention = match.group('_3')
-         if retention == None: retention = random.randint(0,(SIZE/2)-1)
+         if retention == None: retention = whrandom.randint(0,(SIZE/2)-1)
          else: retention = string.atoi(retention)
          self.ret, self.one, self.two = retention, match.group('_1'), match.group('_2')
       else:
@@ -57,8 +53,8 @@ class Wordlist:
       for t in range(0,SIZE): self.lists.append([])
 
    def load(self,filename):
-      f = codecs.open(filename, 'r', 'utf-8')
-      for s in f.readlines():         
+      f = open(filename)
+      for s in f.readlines():
          if s[0] == '#': continue
          if s[-1:] == '\012': s = s[:-1]
          if s[-1:] == '\015': s = s[:-1]
@@ -67,7 +63,7 @@ class Wordlist:
       f.close()
 
    def save(self,filename):
-      f = codecs.open(filename, 'w', 'utf-8')
+      f = open(filename, 'w')
       f.write(
 """# This is part of the Talen project
 # Copyright (C) 2002 Alexander Kellett
@@ -85,7 +81,7 @@ class Wordlist:
          l = len(list)
          tmp = []
          for t in range(0,l):
-            v = random.randint(0,l-t-1)
+            v = whrandom.randint(0,l-t-1)
             i = list[v]
             tmp.append(i)
             list.remove(i)
@@ -142,7 +138,7 @@ def test(win,list,tested,number,skip=None):
             a.remove(v)
             break
 
-         win.addstr(('\n' + v.qstr() + ' = ' + v.qstr(1)).encode("utf-8"))
+         win.addstr('\n' + v.qstr() + ' = ' + v.qstr(1))
 
          win.refresh()
          win.getch()
@@ -154,10 +150,8 @@ def main():
    list = Wordlist()
    list.load(sys.argv[1])
 
-
    win=curses.initscr()
    curses.noecho()
-   curses.meta(1)
 
    if len(sys.argv) == 2: 
       tested0 = Wordlist()
