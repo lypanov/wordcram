@@ -127,26 +127,20 @@ function hidePrefs() {
 }
 
 function next(score) {
-	alert("1");
 	hideContent();
-	alert("2");
 	animation.callback = function() {
-		alert("4");
 		animation.callback = null;
 		getAnswerAndScoreIt(score);
-		alert("5");
 		setTimeout("showContent();",550);
 		setTimeout("hideContent();",2000);
 		setTimeout("getNewQuestion();",2500);
 		setTimeout("showContent();",3000);
 	}
-	alert("3");
 }
 
 var animation = {duration:0, starttime:0, to:1.0, now:1.0, from:0.0, firstElement:null, timer:null};
 
 function showContent() {
-alert("wee");
 		if (complete)
 			return;
 			
