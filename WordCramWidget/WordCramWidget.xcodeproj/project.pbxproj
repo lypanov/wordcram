@@ -211,8 +211,7 @@
 				FA5E72630AC6C39400752EB7 /* unhappy.png */,
 				FA5E72640AC6C39400752EB7 /* worried.png */,
 			);
-			name = Widget;
-			path = Stretcher;
+			path = Widget;
 			sourceTree = "<group>";
 		};
 		FABD077B0A658F3F00F69CD8 /* Resources */ = {
