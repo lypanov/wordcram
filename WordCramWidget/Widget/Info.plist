@@ -7,11 +7,11 @@
 	<key>BackwardsCompatibleClassLookup</key>
 	<true/>
 	<key>CFBundleDisplayName</key>
-	<string>Stretcher</string>
+	<string>WordCram</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.widget.Stretcher</string>
+	<string>com.apple.widget.WordCram</string>
 	<key>CFBundleName</key>
-	<string>Stretcher</string>
+	<string>WordCram</string>
 	<key>CFBundleShortVersionString</key>
 	<string>2.0</string>
 	<key>CFBundleVersion</key>
@@ -23,7 +23,7 @@
 	<key>Height</key>
 	<integer>200</integer>
 	<key>MainHTML</key>
-	<string>Stretcher.html</string>
+	<string>WordCram.html</string>
 	<key>Plugin</key>
 	<string>TudgetPlugin.widgetplugin</string>
 	<key>Width</key>
