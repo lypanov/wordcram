@@ -34,7 +34,6 @@
 		FA617F360B42A0AE00D81968 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = FA617EF20B429F7500D81968 /* md5.h */; };
 		FA617F380B42A0D000D81968 /* libFoob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA617F300B42A08A00D81968 /* libFoob.a */; };
 		FA8A6B1A0A57F94900D0A95E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2630D8960835737900549473 /* CoreData.framework */; };
-		FAB26C410A55E66B00B56DF6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB26C220A55E29700B56DF6 /* Tests.m */; };
 		FAB26D090A56FE3E00B56DF6 /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB26CC10A56C07500B56DF6 /* Logic.m */; };
 		FABB80650A66DE7000CAC42A /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB26CC10A56C07500B56DF6 /* Logic.m */; };
 		FABB80B10A66EEC800CAC42A /* CoreRecipes.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2630D8900835730400549473 /* CoreRecipes.xcdatamodel */; };
@@ -96,10 +95,7 @@
 		FA617EF20B429F7500D81968 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
 		FA617EF30B429F7500D81968 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
 		FA617F300B42A08A00D81968 /* libFoob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFoob.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB26C170A55D8AB00B56DF6 /* BackendTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackendTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB26C180A55D8AB00B56DF6 /* BackendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "BackendTests-Info.plist"; sourceTree = "<group>"; };
-		FAB26C210A55E29700B56DF6 /* Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
-		FAB26C220A55E29700B56DF6 /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		FAB26C170A55D8AB00B56DF6 /* BackendTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BackendTests.octest; path = /Users/lypanov/github/wordcram/WordCramWidget/build/Development/BackendTests.octest; sourceTree = "<absolute>"; };
 		FAB26CC00A56C07500B56DF6 /* Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
 		FAB26CC10A56C07500B56DF6 /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logic.m; sourceTree = "<group>"; };
 		FABD07680A658E8000F69CD8 /* TudgetPlugin.widgetplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TudgetPlugin.widgetplugin; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,7 +148,6 @@
 				08FB7795FE84155DC02AAC07 /* Sources */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
-				FAB26C180A55D8AB00B56DF6 /* BackendTests-Info.plist */,
 			);
 			name = CoreRecipesTool;
 			sourceTree = "<group>";
@@ -166,8 +161,6 @@
 				FABD077D0A658F6F00F69CD8 /* MyPluginClass.m */,
 				FAB26CC00A56C07500B56DF6 /* Logic.h */,
 				FAB26CC10A56C07500B56DF6 /* Logic.m */,
-				FAB26C210A55E29700B56DF6 /* Tests.h */,
-				FAB26C220A55E29700B56DF6 /* Tests.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -184,7 +177,6 @@
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAB26C170A55D8AB00B56DF6 /* BackendTests.octest */,
 				FABD07680A658E8000F69CD8 /* TudgetPlugin.widgetplugin */,
 				FA617F300B42A08A00D81968 /* libFoob.a */,
 			);
@@ -199,7 +191,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		FA5E72550AC6C39400752EB7 /* Stretcher */ = {
+		FA5E72550AC6C39400752EB7 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
 				BD26448C0D67B598004D81DC /* Default.png */,
@@ -219,13 +211,14 @@
 				FA5E72630AC6C39400752EB7 /* unhappy.png */,
 				FA5E72640AC6C39400752EB7 /* worried.png */,
 			);
+			name = Widget;
 			path = Stretcher;
 			sourceTree = "<group>";
 		};
 		FABD077B0A658F3F00F69CD8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FA5E72550AC6C39400752EB7 /* Stretcher */,
+				FA5E72550AC6C39400752EB7 /* Widget */,
 				FABD076F0A658EE400F69CD8 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -305,7 +298,7 @@
 /* Begin PBXProject section */
 		08FB7793FE84155DC02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = FA4802990A4F0CCD00934C07 /* Build configuration list for PBXProject "CoreRecipesTool-End" */;
+			buildConfigurationList = FA4802990A4F0CCD00934C07 /* Build configuration list for PBXProject "WordCramWidget" */;
 			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 08FB7794FE84155DC02AAC07 /* CoreRecipesTool */;
@@ -397,7 +390,6 @@
 			files = (
 				FA423C3E0A58386D00CD318B /* CoreRecipes.xcdatamodel in Sources */,
 				FAB26D090A56FE3E00B56DF6 /* Logic.m in Sources */,
-				FAB26C410A55E66B00B56DF6 /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,7 +675,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA4802990A4F0CCD00934C07 /* Build configuration list for PBXProject "CoreRecipesTool-End" */ = {
+		FA4802990A4F0CCD00934C07 /* Build configuration list for PBXProject "WordCramWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA48029A0A4F0CCD00934C07 /* Development */,
