@@ -7,36 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD0A9D830D08432200FCAB90 /* libFoob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA617F300B42A08A00D81968 /* libFoob.a */; };
 		BD26448D0D67B598004D81DC /* Default.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD26448C0D67B598004D81DC /* Default.png */; };
+		BDB6AE4F0D6A3B54000DF8F3 /* Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725C0AC6C39400752EB7 /* Info.plist */; };
 		FA35C9B00ADCAE6C00F6B7A4 /* test1.wordlist in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AE0ADCAE6C00F6B7A4 /* test1.wordlist */; };
 		FA35C9B10ADCAE6C00F6B7A4 /* test2.wordlist in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AF0ADCAE6C00F6B7A4 /* test2.wordlist */; };
-		FA423C3E0A58386D00CD318B /* CoreRecipes.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2630D8900835730400549473 /* CoreRecipes.xcdatamodel */; };
 		FA5E72650AC6C39400752EB7 /* AppleAnimator.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E72560AC6C39400752EB7 /* AppleAnimator.js */; };
-		FA5E726B0AC6C39400752EB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA5E725C0AC6C39400752EB7 /* Info.plist */; };
 		FA5E726D0AC6C39400752EB7 /* Stretcher.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E725E0AC6C39400752EB7 /* Stretcher.js */; };
-		FA5E72710AC6C39400752EB7 /* Tudget.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E72620AC6C39400752EB7 /* Tudget.js */; };
+		FA5E72710AC6C39400752EB7 /* WordCram.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E72620AC6C39400752EB7 /* WordCram.js */; };
 		FA5E72B30AC6C51C00752EB7 /* AppleAnimator.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72560AC6C39400752EB7 /* AppleAnimator.js */; };
 		FA5E72B40AC6C51C00752EB7 /* Bottom.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72570AC6C39400752EB7 /* Bottom.png */; };
 		FA5E72B50AC6C51C00752EB7 /* Center.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72580AC6C39400752EB7 /* Center.png */; };
 		FA5E72B70AC6C51C00752EB7 /* happy.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725A0AC6C39400752EB7 /* happy.png */; };
 		FA5E72B80AC6C51C00752EB7 /* Icon.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725B0AC6C39400752EB7 /* Icon.png */; };
-		FA5E72B90AC6C51C00752EB7 /* Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725C0AC6C39400752EB7 /* Info.plist */; };
-		FA5E72BA0AC6C51C00752EB7 /* Stretcher.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725D0AC6C39400752EB7 /* Stretcher.html */; };
+		FA5E72BA0AC6C51C00752EB7 /* WordCram.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725D0AC6C39400752EB7 /* WordCram.html */; };
 		FA5E72BB0AC6C51C00752EB7 /* Stretcher.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725E0AC6C39400752EB7 /* Stretcher.js */; };
 		FA5E72BD0AC6C51C00752EB7 /* Top.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72600AC6C39400752EB7 /* Top.png */; };
-		FA5E72BE0AC6C51C00752EB7 /* Tudget.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72610AC6C39400752EB7 /* Tudget.css */; };
-		FA5E72BF0AC6C51C00752EB7 /* Tudget.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72620AC6C39400752EB7 /* Tudget.js */; };
+		FA5E72BE0AC6C51C00752EB7 /* WordCram.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72610AC6C39400752EB7 /* WordCram.css */; };
+		FA5E72BF0AC6C51C00752EB7 /* WordCram.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72620AC6C39400752EB7 /* WordCram.js */; };
 		FA5E72C00AC6C51C00752EB7 /* unhappy.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72630AC6C39400752EB7 /* unhappy.png */; };
 		FA5E72C10AC6C51C00752EB7 /* worried.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E72640AC6C39400752EB7 /* worried.png */; };
 		FA617EF40B429F7500D81968 /* md5.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA617EF20B429F7500D81968 /* md5.h */; };
 		FA617F310B42A09700D81968 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = FA617EF30B429F7500D81968 /* md5.c */; };
 		FA617F360B42A0AE00D81968 /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = FA617EF20B429F7500D81968 /* md5.h */; };
 		FA617F380B42A0D000D81968 /* libFoob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA617F300B42A08A00D81968 /* libFoob.a */; };
-		FA8A6B1A0A57F94900D0A95E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2630D8960835737900549473 /* CoreData.framework */; };
-		FAB26D090A56FE3E00B56DF6 /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB26CC10A56C07500B56DF6 /* Logic.m */; };
 		FABB80650A66DE7000CAC42A /* Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB26CC10A56C07500B56DF6 /* Logic.m */; };
-		FABB80B10A66EEC800CAC42A /* CoreRecipes.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2630D8900835730400549473 /* CoreRecipes.xcdatamodel */; };
+		FABB80B10A66EEC800CAC42A /* WordCram.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 2630D8900835730400549473 /* WordCram.xcdatamodel */; };
 		FABD07710A658EE500F69CD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABD076F0A658EE400F69CD8 /* InfoPlist.strings */; };
 		FABD077E0A658F6F00F69CD8 /* MyPluginClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD077D0A658F6F00F69CD8 /* MyPluginClass.m */; };
 		FABD07CD0A658FCE00F69CD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABD07CB0A658FCE00F69CD8 /* Cocoa.framework */; };
@@ -48,21 +43,21 @@
 		FA5E720E0AC6C18700752EB7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
-			dstPath = "~/Library/Widgets/Stretcher.wdgt";
+			dstPath = "~/Library/Widgets/WordCram.wdgt";
 			dstSubfolderSpec = 0;
 			files = (
-				BD26448D0D67B598004D81DC /* Default.png in CopyFiles */,
-				FA5E72B30AC6C51C00752EB7 /* AppleAnimator.js in CopyFiles */,
+				BDB6AE4F0D6A3B54000DF8F3 /* Info.plist in CopyFiles */,
+				FA5E72BD0AC6C51C00752EB7 /* Top.png in CopyFiles */,
 				FA5E72B40AC6C51C00752EB7 /* Bottom.png in CopyFiles */,
 				FA5E72B50AC6C51C00752EB7 /* Center.png in CopyFiles */,
-				FA5E72B70AC6C51C00752EB7 /* happy.png in CopyFiles */,
 				FA5E72B80AC6C51C00752EB7 /* Icon.png in CopyFiles */,
-				FA5E72B90AC6C51C00752EB7 /* Info.plist in CopyFiles */,
-				FA5E72BA0AC6C51C00752EB7 /* Stretcher.html in CopyFiles */,
+				BD26448D0D67B598004D81DC /* Default.png in CopyFiles */,
+				FA5E72B30AC6C51C00752EB7 /* AppleAnimator.js in CopyFiles */,
 				FA5E72BB0AC6C51C00752EB7 /* Stretcher.js in CopyFiles */,
-				FA5E72BD0AC6C51C00752EB7 /* Top.png in CopyFiles */,
-				FA5E72BE0AC6C51C00752EB7 /* Tudget.css in CopyFiles */,
-				FA5E72BF0AC6C51C00752EB7 /* Tudget.js in CopyFiles */,
+				FA5E72BA0AC6C51C00752EB7 /* WordCram.html in CopyFiles */,
+				FA5E72BE0AC6C51C00752EB7 /* WordCram.css in CopyFiles */,
+				FA5E72BF0AC6C51C00752EB7 /* WordCram.js in CopyFiles */,
+				FA5E72B70AC6C51C00752EB7 /* happy.png in CopyFiles */,
 				FA5E72C00AC6C51C00752EB7 /* unhappy.png in CopyFiles */,
 				FA5E72C10AC6C51C00752EB7 /* worried.png in CopyFiles */,
 				FABD07D50A65900F00F69CD8 /* TudgetPlugin.widgetplugin in CopyFiles */,
@@ -73,7 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2630D8900835730400549473 /* CoreRecipes.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = wrapper.xcdatamodel; path = CoreRecipes.xcdatamodel; sourceTree = "<group>"; };
+		2630D8900835730400549473 /* WordCram.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = wrapper.xcdatamodel; path = WordCram.xcdatamodel; sourceTree = "<group>"; };
 		2630D8960835737900549473 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		BD0A9CBE0D08415700FCAB90 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		BD26448C0D67B598004D81DC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -85,17 +80,16 @@
 		FA5E725A0AC6C39400752EB7 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
 		FA5E725B0AC6C39400752EB7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		FA5E725C0AC6C39400752EB7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA5E725D0AC6C39400752EB7 /* Stretcher.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = Stretcher.html; sourceTree = "<group>"; };
+		FA5E725D0AC6C39400752EB7 /* WordCram.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = WordCram.html; sourceTree = "<group>"; };
 		FA5E725E0AC6C39400752EB7 /* Stretcher.js */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.javascript; path = Stretcher.js; sourceTree = "<group>"; };
 		FA5E72600AC6C39400752EB7 /* Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top.png; sourceTree = "<group>"; };
-		FA5E72610AC6C39400752EB7 /* Tudget.css */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Tudget.css; sourceTree = "<group>"; };
-		FA5E72620AC6C39400752EB7 /* Tudget.js */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.javascript; path = Tudget.js; sourceTree = "<group>"; };
+		FA5E72610AC6C39400752EB7 /* WordCram.css */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.css; path = WordCram.css; sourceTree = "<group>"; };
+		FA5E72620AC6C39400752EB7 /* WordCram.js */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.javascript; path = WordCram.js; sourceTree = "<group>"; };
 		FA5E72630AC6C39400752EB7 /* unhappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unhappy.png; sourceTree = "<group>"; };
 		FA5E72640AC6C39400752EB7 /* worried.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worried.png; sourceTree = "<group>"; };
 		FA617EF20B429F7500D81968 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
 		FA617EF30B429F7500D81968 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
 		FA617F300B42A08A00D81968 /* libFoob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFoob.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAB26C170A55D8AB00B56DF6 /* BackendTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BackendTests.octest; path = /Users/lypanov/github/wordcram/WordCramWidget/build/Development/BackendTests.octest; sourceTree = "<absolute>"; };
 		FAB26CC00A56C07500B56DF6 /* Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logic.h; sourceTree = "<group>"; };
 		FAB26CC10A56C07500B56DF6 /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logic.m; sourceTree = "<group>"; };
 		FABD07680A658E8000F69CD8 /* TudgetPlugin.widgetplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TudgetPlugin.widgetplugin; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,15 +106,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAB26C140A55D8AB00B56DF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD0A9D830D08432200FCAB90 /* libFoob.a in Frameworks */,
-				FA8A6B1A0A57F94900D0A95E /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +171,7 @@
 		2630D88C083572C900549473 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2630D8900835730400549473 /* CoreRecipes.xcdatamodel */,
+				2630D8900835730400549473 /* WordCram.xcdatamodel */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,14 +185,14 @@
 				FA5E72560AC6C39400752EB7 /* AppleAnimator.js */,
 				FA5E72570AC6C39400752EB7 /* Bottom.png */,
 				FA5E72580AC6C39400752EB7 /* Center.png */,
-				FA5E725A0AC6C39400752EB7 /* happy.png */,
 				FA5E725B0AC6C39400752EB7 /* Icon.png */,
 				FA5E725C0AC6C39400752EB7 /* Info.plist */,
-				FA5E725D0AC6C39400752EB7 /* Stretcher.html */,
 				FA5E725E0AC6C39400752EB7 /* Stretcher.js */,
 				FA5E72600AC6C39400752EB7 /* Top.png */,
-				FA5E72610AC6C39400752EB7 /* Tudget.css */,
-				FA5E72620AC6C39400752EB7 /* Tudget.js */,
+				FA5E725D0AC6C39400752EB7 /* WordCram.html */,
+				FA5E72610AC6C39400752EB7 /* WordCram.css */,
+				FA5E72620AC6C39400752EB7 /* WordCram.js */,
+				FA5E725A0AC6C39400752EB7 /* happy.png */,
 				FA5E72630AC6C39400752EB7 /* unhappy.png */,
 				FA5E72640AC6C39400752EB7 /* worried.png */,
 			);
@@ -254,24 +239,6 @@
 			productReference = FA617F300B42A08A00D81968 /* libFoob.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		FAB26C160A55D8AB00B56DF6 /* BackendTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAB26C190A55D8AB00B56DF6 /* Build configuration list for PBXNativeTarget "BackendTests" */;
-			buildPhases = (
-				FAB26C120A55D8AB00B56DF6 /* Resources */,
-				FAB26C130A55D8AB00B56DF6 /* Sources */,
-				FAB26C140A55D8AB00B56DF6 /* Frameworks */,
-				FAB26C150A55D8AB00B56DF6 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BackendTests;
-			productName = BackendTests;
-			productReference = FAB26C170A55D8AB00B56DF6 /* BackendTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 		FABD07670A658E8000F69CD8 /* TudgetPlugin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FABD076A0A658E8300F69CD8 /* Build configuration list for PBXNativeTarget "TudgetPlugin" */;
@@ -281,7 +248,6 @@
 				FABD07660A658E8000F69CD8 /* Frameworks */,
 				FA5E72920AC6C44300752EB7 /* ShellScript */,
 				FA5E720E0AC6C18700752EB7 /* CopyFiles */,
-				FABD07DD0A65904900F69CD8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -304,7 +270,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAB26C160A55D8AB00B56DF6 /* BackendTests */,
 				FABD07670A658E8000F69CD8 /* TudgetPlugin */,
 				FA617F2F0B42A08A00D81968 /* Foob */,
 			);
@@ -312,19 +277,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FAB26C120A55D8AB00B56DF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FABD07640A658E8000F69CD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FABD07710A658EE500F69CD8 /* InfoPlist.strings in Resources */,
-				FA5E726B0AC6C39400752EB7 /* Info.plist in Resources */,
 				FA35C9B00ADCAE6C00F6B7A4 /* test1.wordlist in Resources */,
 				FA35C9B10ADCAE6C00F6B7A4 /* test2.wordlist in Resources */,
 			);
@@ -344,33 +301,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mkdir -p ~/Library/Widgets/Stretcher.wdgt";
-		};
-		FAB26C150A55D8AB00B56DF6 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		FABD07DD0A65904900F69CD8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "kill `ps avxuww | grep Stretcher.wdgt | grep Dashboard | sed \"s/^[ ]*//g\" | cut -f1 -d\" \"`\nexit 0";
+			shellScript = "mkdir -p ~/Library/Widgets/WordCram.wdgt";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -383,25 +314,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAB26C130A55D8AB00B56DF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA423C3E0A58386D00CD318B /* CoreRecipes.xcdatamodel in Sources */,
-				FAB26D090A56FE3E00B56DF6 /* Logic.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FABD07650A658E8000F69CD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FABB80B10A66EEC800CAC42A /* CoreRecipes.xcdatamodel in Sources */,
+				FABB80B10A66EEC800CAC42A /* WordCram.xcdatamodel in Sources */,
 				FABB80650A66DE7000CAC42A /* Logic.m in Sources */,
 				FABD077E0A658F6F00F69CD8 /* MyPluginClass.m in Sources */,
 				FA5E72650AC6C39400752EB7 /* AppleAnimator.js in Sources */,
 				FA5E726D0AC6C39400752EB7 /* Stretcher.js in Sources */,
-				FA5E72710AC6C39400752EB7 /* Tudget.js in Sources */,
+				FA5E72710AC6C39400752EB7 /* WordCram.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,99 +410,6 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = Foob;
 				ZERO_LINK = YES;
-			};
-			name = Default;
-		};
-		FAB26C1A0A55D8AB00B56DF6 /* Development */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../Builds/Development\"";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				INFOPLIST_FILE = "BackendTests-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Cocoa,
-					"-framework",
-					SenTestingKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = BackendTests;
-				WRAPPER_EXTENSION = octest;
-				ZERO_LINK = NO;
-			};
-			name = Development;
-		};
-		FAB26C1B0A55D8AB00B56DF6 /* Deployment */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../Builds/Development\"";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				INFOPLIST_FILE = "BackendTests-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Cocoa,
-					"-framework",
-					SenTestingKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = BackendTests;
-				WRAPPER_EXTENSION = octest;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		FAB26C1C0A55D8AB00B56DF6 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
-					"$(DEVELOPER_FRAMEWORKS_DIR_QUOTED)",
-				);
-				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../Builds/Development\"";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				INFOPLIST_FILE = "BackendTests-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Cocoa,
-					"-framework",
-					SenTestingKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = BackendTests;
-				WRAPPER_EXTENSION = octest;
-				ZERO_LINK = NO;
 			};
 			name = Default;
 		};
@@ -690,16 +519,6 @@
 				FA617F3C0B42A0EE00D81968 /* Development */,
 				FA617F3D0B42A0EE00D81968 /* Deployment */,
 				FA617F3E0B42A0EE00D81968 /* Default */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
-		};
-		FAB26C190A55D8AB00B56DF6 /* Build configuration list for PBXNativeTarget "BackendTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAB26C1A0A55D8AB00B56DF6 /* Development */,
-				FAB26C1B0A55D8AB00B56DF6 /* Deployment */,
-				FAB26C1C0A55D8AB00B56DF6 /* Default */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
