@@ -71,7 +71,6 @@ int chefFromStringSort(NSManagedObject *chef1, NSManagedObject *chef2, void *con
 	[m_currentItem release];
 	m_currentItem = [m_currentList nextObject];
 	[m_currentItem retain];
-	NSLog(@"NEXT ITEM == %@", m_currentItem);
 	return m_currentItem;
 }
 
@@ -176,7 +175,6 @@ int chefFromStringSort(NSManagedObject *chef1, NSManagedObject *chef2, void *con
 }
 
 - (NSManagedObject*) currentItem {
-	NSLog(@"CURRENT ITEM == %@", m_currentItem);
 	return m_currentItem;
 }
 
@@ -311,7 +309,6 @@ NSData* md5Digest(NSData *inputString) {
 		NSData *plaintext, *digest;
 		plaintext = [[fromString stringByAppendingString:toString] dataUsingEncoding:NSUTF8StringEncoding];
 		digest    = md5Digest(plaintext);
-		NSLog(@"FOOB!!! - @%", digest);
 		
 		NSManagedObject *existingDigestScore = [self digestScoreForDigest:digest];
 		if (existingDigestScore != nil) {
@@ -331,8 +328,6 @@ NSData* md5Digest(NSData *inputString) {
 		[definition setValue:toString forKey:@"toString"];
 		[definition setValue:digest forKey:@"digest"];
 	
-		NSLog(@"Inserted one, yay");
-		
 		if ([m_context save:error] == NO) {
 			[m_context deleteObject:digestScore];
 			[m_context deleteObject:definition];

@@ -4,6 +4,7 @@
 @implementation MyPluginClass
 
 -(id)initWithWebView:(WebView*)w {
+	NSLog(@"WordCram plugin loaded!\n");
 	self = [super init];
 	logic = [[Logic alloc] init];
 	return self;
@@ -22,6 +23,7 @@
 }
 
 -(NSString*) userTestsDirectory {
+	// TODO - update to use WordCram
 	NSString *path = [@"~/Library/Application Support/Tudget/" stringByExpandingTildeInPath];
 	return [[path stringByDeletingLastPathComponent] stringByAppendingString:@"/"];
 } 
@@ -63,10 +65,8 @@
 	NSString *pname;
 	NSDirectoryEnumerator *direnum = [[NSFileManager defaultManager] enumeratorAtPath:[self testsDirectory]];
 	while (pname = [direnum nextObject]) {
-		NSLog(@"%@", pname);
 		if ([pname rangeOfString:@".wordlist"].location == NSNotFound)
 			continue;
-		NSLog(@"this one matchs");
 		[chefs addObject:[[self testsDirectory] stringByAppendingString:pname]];
 	}
 	NSDirectoryEnumerator *userdirenum = [[NSFileManager defaultManager] enumeratorAtPath:[self userTestsDirectory]];
@@ -101,11 +101,8 @@
 }
 
 - (NSString *) getAnswerAndScoreIt:(NSNumber*)score {
-NSLog(@"ANSWER");
 	NSString *answer;
 	answer = [self toStringForDigestScore:[logic currentItem]];
-	NSLog(@"GETTING ANSWER - %@", answer);
-	NSLog(@"APPLYING SCORE - %i", [score intValue]);
 	[logic applyDifferenceAndProceed:[score intValue]];
 	return answer;
 }
@@ -113,21 +110,19 @@ NSLog(@"ANSWER");
 - (void) restartTests {
 	[logic load:fileName];
 	[logic initTestLengths];
-	[logic addTestLength:1];
-// 	[logic addTestLength:4];
-// 	[logic addTestLength:2];
+	[logic addTestLength:8];
+ 	[logic addTestLength:5];
+ 	[logic addTestLength:4];
+ 	[logic addTestLength:3];
 	[logic startTests];
 }
 
 - (NSString *) getNewQuestion {
-NSLog(@"QUESTION");
 	NSManagedObject *questionDigestScore = [logic currentItem];
 	if (questionDigestScore == nil) {
-		NSLog(@"NO QUESTION");
 		return nil;
 	}
 	NSString *question = [self fromStringForDigestScore:questionDigestScore];
-	NSLog(@"GETTING QUESTION - %@", question);
 	return question;
 }
 
