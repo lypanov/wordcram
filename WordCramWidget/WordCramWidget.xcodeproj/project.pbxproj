@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		BD26448D0D67B598004D81DC /* Default.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD26448C0D67B598004D81DC /* Default.png */; };
 		BDB6AE4F0D6A3B54000DF8F3 /* Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725C0AC6C39400752EB7 /* Info.plist */; };
-		FA35C9B00ADCAE6C00F6B7A4 /* test1.wordlist in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AE0ADCAE6C00F6B7A4 /* test1.wordlist */; };
-		FA35C9B10ADCAE6C00F6B7A4 /* test2.wordlist in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AF0ADCAE6C00F6B7A4 /* test2.wordlist */; };
+		FA35C9B00ADCAE6C00F6B7A4 /* test1.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AE0ADCAE6C00F6B7A4 /* test1.txt */; };
+		FA35C9B10ADCAE6C00F6B7A4 /* test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AF0ADCAE6C00F6B7A4 /* test2.txt */; };
 		FA5E72650AC6C39400752EB7 /* AppleAnimator.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E72560AC6C39400752EB7 /* AppleAnimator.js */; };
 		FA5E726D0AC6C39400752EB7 /* Stretcher.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E725E0AC6C39400752EB7 /* Stretcher.js */; };
 		FA5E72710AC6C39400752EB7 /* WordCram.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E72620AC6C39400752EB7 /* WordCram.js */; };
@@ -72,14 +72,14 @@
 		2630D8960835737900549473 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		BD0A9CBE0D08415700FCAB90 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		BD26448C0D67B598004D81DC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FA35C9AE0ADCAE6C00F6B7A4 /* test1.wordlist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = test1.wordlist; sourceTree = "<group>"; };
-		FA35C9AF0ADCAE6C00F6B7A4 /* test2.wordlist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = test2.wordlist; sourceTree = "<group>"; };
+		FA35C9AE0ADCAE6C00F6B7A4 /* test1.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
+		FA35C9AF0ADCAE6C00F6B7A4 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
 		FA5E72560AC6C39400752EB7 /* AppleAnimator.js */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.javascript; path = AppleAnimator.js; sourceTree = "<group>"; };
 		FA5E72570AC6C39400752EB7 /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom.png; sourceTree = "<group>"; };
 		FA5E72580AC6C39400752EB7 /* Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Center.png; sourceTree = "<group>"; };
 		FA5E725A0AC6C39400752EB7 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
 		FA5E725B0AC6C39400752EB7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		FA5E725C0AC6C39400752EB7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5E725C0AC6C39400752EB7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA5E725D0AC6C39400752EB7 /* WordCram.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; path = WordCram.html; sourceTree = "<group>"; };
 		FA5E725E0AC6C39400752EB7 /* Stretcher.js */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.javascript; path = Stretcher.js; sourceTree = "<group>"; };
 		FA5E72600AC6C39400752EB7 /* Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top.png; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		FAB26CC10A56C07500B56DF6 /* Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logic.m; sourceTree = "<group>"; };
 		FABD07680A658E8000F69CD8 /* TudgetPlugin.widgetplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TudgetPlugin.widgetplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABD07700A658EE500F69CD8 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		FABD07780A658F0900F69CD8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		FABD07780A658F0900F69CD8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
 		FABD077C0A658F6F00F69CD8 /* MyPluginClass.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyPluginClass.h; sourceTree = "<group>"; };
 		FABD077D0A658F6F00F69CD8 /* MyPluginClass.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyPluginClass.m; sourceTree = "<group>"; };
 		FABD07CB0A658FCE00F69CD8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -180,8 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				BD26448C0D67B598004D81DC /* Default.png */,
-				FA35C9AE0ADCAE6C00F6B7A4 /* test1.wordlist */,
-				FA35C9AF0ADCAE6C00F6B7A4 /* test2.wordlist */,
+				FA35C9AE0ADCAE6C00F6B7A4 /* test1.txt */,
+				FA35C9AF0ADCAE6C00F6B7A4 /* test2.txt */,
 				FA5E72560AC6C39400752EB7 /* AppleAnimator.js */,
 				FA5E72570AC6C39400752EB7 /* Bottom.png */,
 				FA5E72580AC6C39400752EB7 /* Center.png */,
@@ -282,8 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABD07710A658EE500F69CD8 /* InfoPlist.strings in Resources */,
-				FA35C9B00ADCAE6C00F6B7A4 /* test1.wordlist in Resources */,
-				FA35C9B10ADCAE6C00F6B7A4 /* test2.wordlist in Resources */,
+				FA35C9B00ADCAE6C00F6B7A4 /* test1.txt in Resources */,
+				FA35C9B10ADCAE6C00F6B7A4 /* test2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
