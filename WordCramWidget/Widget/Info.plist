@@ -6,6 +6,8 @@
 	<true/>
 	<key>BackwardsCompatibleClassLookup</key>
 	<true/>
+	<key>AllowFileAccessOutsideOfWidget</key>
+	<true/>
 	<key>CFBundleDisplayName</key>
 	<string>WordCram</string>
 	<key>CFBundleIdentifier</key>

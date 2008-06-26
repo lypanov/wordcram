@@ -136,6 +136,13 @@ body {
 	left: 117px;
 }
 
+
+#fileLink {
+	position: absolute;
+	top: 70px;
+	left: 104px;
+}
+
 #restart {
 	position: absolute;
 	top: 90px;

@@ -100,6 +100,12 @@ function showPrefs() {
 			if (selectedTest == availableTests[i])
 				availableTestsSelect.options[i].selected = true;
 		}
+	var para = document.getElementById("fileLink");
+	var button = document.createElement("button");
+	button.innerHTML = "foobar";
+	
+	button.onclick = function() { widget.openURL("file://" + selectedTest);  };
+	para.appendChild(button);
 	
 	front.style.display="none";		// hide the front
 	back.style.display="block";		// show the back
