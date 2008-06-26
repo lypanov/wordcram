@@ -33,6 +33,7 @@ function keyeventhandler(event) {
 }
 
 function getNewQuestion() {
+	FortunePlugin.setOtherDirection(document.getElementById("otherDirectionCheckbox").checked);
 	var line = FortunePlugin.getNewQuestion();
 	if (!line) {
 		line = "Test Complete";

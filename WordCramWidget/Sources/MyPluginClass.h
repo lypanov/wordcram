@@ -18,6 +18,7 @@ license or right is granted, either expressly or by implication, by Apple.
 	Logic *logic;
 	NSString *fileName;
 	short sayingCount;
+	BOOL m_otherDirection;
 }
 
 - (void) restartTests;

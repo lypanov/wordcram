@@ -42,6 +42,8 @@
 		retval = @"restartTests";		
 	} else if (aSel == @selector(setFileName:)) {
 		retval = @"setFileName";
+	} else if (aSel == @selector(setOtherDirection:)) {
+		retval = @"setOtherDirection";
 	} else if (aSel == @selector(availableTests)) {
 		retval = @"availableTests";
 	} else {
@@ -52,7 +54,8 @@
 }
 
 +(BOOL)isSelectorExcludedFromWebScript:(SEL)aSel {	
-	if (aSel == @selector(getAnswerAndScoreIt:) || aSel == @selector(getNewQuestion)
+	if (aSel == @selector(setOtherDirection:) || 
+		aSel == @selector(getAnswerAndScoreIt:) || aSel == @selector(getNewQuestion)
 	 || aSel == @selector(restartTests) || aSel == @selector(setFileName:)
 	 || aSel == @selector(availableTests)) {
 		return NO;
@@ -88,7 +91,7 @@
 	if (definition == nil) {
 		NSLog(@"Failed to find definition with digest: %@", [digestScore valueForKey:@"digest"]);
 	}
-	return [definition valueForKey:@"fromString"];
+	return m_otherDirection ? [definition valueForKey:@"toString"] : [definition valueForKey:@"fromString"];
 }
 
 - (NSString *) toStringForDigestScore: (NSManagedObject*)digestScore {
@@ -97,7 +100,7 @@
 	if (definition == nil) {
 		NSLog(@"Failed to find definition with digest: %@", [digestScore valueForKey:@"digest"]);
 	}
-	return [definition valueForKey:@"toString"];
+	return m_otherDirection ? [definition valueForKey:@"fromString"] : [definition valueForKey:@"toString"];
 }
 
 - (NSString *) getAnswerAndScoreIt:(NSNumber*)score {
@@ -115,6 +118,14 @@
  	[logic addTestLength:4];
  	[logic addTestLength:3];
 	[logic startTests];
+}
+
+- (BOOL) otherDirection {
+	return m_otherDirection;
+}
+
+- (void) setOtherDirection:(BOOL) otherDirection {
+	m_otherDirection = otherDirection;
 }
 
 - (NSString *) getNewQuestion {

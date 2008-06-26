@@ -136,6 +136,11 @@ body {
 	left: 117px;
 }
 
+#otherDirectionCheckbox {
+	position: absolute;
+	top: 10px;
+	left: 200px;
+}
 
 #fileLink {
 	position: absolute;
