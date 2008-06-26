@@ -65,13 +65,13 @@
 	NSString *pname;
 	NSDirectoryEnumerator *direnum = [[NSFileManager defaultManager] enumeratorAtPath:[self testsDirectory]];
 	while (pname = [direnum nextObject]) {
-		if ([pname rangeOfString:@".wordlist"].location == NSNotFound)
+		if ([pname rangeOfString:@".txt"].location == NSNotFound)
 			continue;
 		[chefs addObject:[[self testsDirectory] stringByAppendingString:pname]];
 	}
 	NSDirectoryEnumerator *userdirenum = [[NSFileManager defaultManager] enumeratorAtPath:[self userTestsDirectory]];
 	while (pname = [userdirenum nextObject]) {
-		if ([pname rangeOfString:@".wordlist"].location == NSNotFound)
+		if ([pname rangeOfString:@".txt"].location == NSNotFound)
 			continue;
 		[chefs addObject:[[self userTestsDirectory] stringByAppendingString:pname]];
 	}
