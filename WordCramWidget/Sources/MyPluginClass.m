@@ -25,7 +25,7 @@
 -(NSString*) userTestsDirectory {
 	// TODO - update to use WordCram
 	NSString *path = [@"~/Library/Application Support/Tudget/" stringByExpandingTildeInPath];
-	return [[path stringByDeletingLastPathComponent] stringByAppendingString:@"/"];
+	return path;
 } 
 
 -(void)windowScriptObjectAvailable:(WebScriptObject*)wso {
