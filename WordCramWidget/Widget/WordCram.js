@@ -67,6 +67,7 @@ function getAnswerAndScoreIt(score) {
 		document.getElementById("happy").style.display = 'inline';
 	else
 		document.getElementById("worried").style.display = 'inline';
+	FortunePlugin.setOtherDirection(document.getElementById("otherDirectionCheckbox").checked);
 	line = FortunePlugin.getAnswerAndScoreIt(score);
 	document.getElementById("ctrTitle").innerHTML = line;
 }
