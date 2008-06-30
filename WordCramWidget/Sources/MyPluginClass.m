@@ -23,8 +23,7 @@
 }
 
 -(NSString*) userTestsDirectory {
-	// TODO - update to use WordCram
-	NSString *path = [@"~/Library/Application Support/Tudget/" stringByExpandingTildeInPath];
+	NSString *path = [[@"~/Library/Application Support/WordCram/" stringByExpandingTildeInPath] stringByAppendingString:@"/"];
 	return path;
 } 
 
