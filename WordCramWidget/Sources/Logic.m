@@ -300,12 +300,22 @@ NSData* md5Digest(NSData *inputString) {
 	NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 	NSScanner *scanner = [NSScanner scannerWithString:string];
 	NSString *fromString, *toString;
+	NSCharacterSet *sepOrNewLine = [NSCharacterSet characterSetWithCharactersInString:@"\n|"];
+	unsigned int oldLocation;
 	
 	while (![scanner isAtEnd]) {
-		[scanner scanUpToString:@"|" intoString:&fromString];
+		oldLocation = [scanner scanLocation];
+		[scanner scanUpToCharactersFromSet:sepOrNewLine intoString:&fromString];
+		if ([fromString characterAtIndex:0] == '#') {
+			NSLog(@": %@ : skipping", fromString);
+			[scanner setScanLocation:oldLocation];
+			[scanner scanUpToString:@"\n" intoString:nil];
+			continue;
+		}
 		[scanner scanString:@"|" intoString:nil];
 		[scanner scanUpToString:@"\n" intoString:&toString];
 		[scanner scanString:@"\n" intoString:nil];
+		NSLog(@": %@ -> %@", fromString, toString);
 
 		NSData *plaintext, *digest;
 		plaintext = [[fromString stringByAppendingString:toString] dataUsingEncoding:NSUTF8StringEncoding];
