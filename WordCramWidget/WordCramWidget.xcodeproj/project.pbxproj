@@ -9,8 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD26448D0D67B598004D81DC /* Default.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD26448C0D67B598004D81DC /* Default.png */; };
 		BDB6AE4F0D6A3B54000DF8F3 /* Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA5E725C0AC6C39400752EB7 /* Info.plist */; };
-		FA35C9B00ADCAE6C00F6B7A4 /* test1.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AE0ADCAE6C00F6B7A4 /* test1.txt */; };
-		FA35C9B10ADCAE6C00F6B7A4 /* test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AF0ADCAE6C00F6B7A4 /* test2.txt */; };
+		FA35C9B00ADCAE6C00F6B7A4 /* Example.txt in Resources */ = {isa = PBXBuildFile; fileRef = FA35C9AE0ADCAE6C00F6B7A4 /* Example.txt */; };
 		FA5E72650AC6C39400752EB7 /* AppleAnimator.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E72560AC6C39400752EB7 /* AppleAnimator.js */; };
 		FA5E726D0AC6C39400752EB7 /* Stretcher.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E725E0AC6C39400752EB7 /* Stretcher.js */; };
 		FA5E72710AC6C39400752EB7 /* WordCram.js in Sources */ = {isa = PBXBuildFile; fileRef = FA5E72620AC6C39400752EB7 /* WordCram.js */; };
@@ -72,8 +71,7 @@
 		2630D8960835737900549473 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		BD0A9CBE0D08415700FCAB90 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		BD26448C0D67B598004D81DC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		FA35C9AE0ADCAE6C00F6B7A4 /* test1.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = test1.txt; sourceTree = "<group>"; };
-		FA35C9AF0ADCAE6C00F6B7A4 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
+		FA35C9AE0ADCAE6C00F6B7A4 /* Example.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = Example.txt; sourceTree = "<group>"; };
 		FA5E72560AC6C39400752EB7 /* AppleAnimator.js */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.javascript; path = AppleAnimator.js; sourceTree = "<group>"; };
 		FA5E72570AC6C39400752EB7 /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom.png; sourceTree = "<group>"; };
 		FA5E72580AC6C39400752EB7 /* Center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Center.png; sourceTree = "<group>"; };
@@ -180,8 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				BD26448C0D67B598004D81DC /* Default.png */,
-				FA35C9AE0ADCAE6C00F6B7A4 /* test1.txt */,
-				FA35C9AF0ADCAE6C00F6B7A4 /* test2.txt */,
+				FA35C9AE0ADCAE6C00F6B7A4 /* Example.txt */,
 				FA5E72560AC6C39400752EB7 /* AppleAnimator.js */,
 				FA5E72570AC6C39400752EB7 /* Bottom.png */,
 				FA5E72580AC6C39400752EB7 /* Center.png */,
@@ -282,8 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABD07710A658EE500F69CD8 /* InfoPlist.strings in Resources */,
-				FA35C9B00ADCAE6C00F6B7A4 /* test1.txt in Resources */,
-				FA35C9B10ADCAE6C00F6B7A4 /* test2.txt in Resources */,
+				FA35C9B00ADCAE6C00F6B7A4 /* Example.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
