@@ -198,7 +198,7 @@ int chefFromStringSort(NSManagedObject *chef1, NSManagedObject *chef2, void *con
 
 - (NSString *) pathForDataFile {
 	NSFileManager *fileManager = [NSFileManager defaultManager];
-	NSString *path = [@"~/Library/Application Support/Tudget/" stringByExpandingTildeInPath];
+	NSString *path = [@"~/Library/Application Support/WordCram/" stringByExpandingTildeInPath];
 	if ([fileManager fileExistsAtPath:path] == NO)
 		[fileManager createDirectoryAtPath:path attributes:nil];
 	return [path stringByAppendingPathComponent:@"Scores.xml"];
