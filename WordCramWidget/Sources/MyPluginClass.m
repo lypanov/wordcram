@@ -45,6 +45,8 @@
 		retval = @"setOtherDirection";
 	} else if (aSel == @selector(availableTests)) {
 		retval = @"availableTests";
+	} else if (aSel == @selector(remainingCount)) {
+		retval = @"remainingCount";		
 	} else {
 		NSLog(@"\tunknown selector");
 	}
@@ -53,10 +55,13 @@
 }
 
 +(BOOL)isSelectorExcludedFromWebScript:(SEL)aSel {	
-	if (aSel == @selector(setOtherDirection:) || 
-		aSel == @selector(getAnswerAndScoreIt:) || aSel == @selector(getNewQuestion)
-	 || aSel == @selector(restartTests) || aSel == @selector(setFileName:)
-	 || aSel == @selector(availableTests)) {
+	if (aSel == @selector(setOtherDirection:)
+	 || aSel == @selector(getAnswerAndScoreIt:)
+	 || aSel == @selector(getNewQuestion)
+	 || aSel == @selector(restartTests)
+	 || aSel == @selector(setFileName:)
+	 || aSel == @selector(availableTests) 
+	 || aSel == @selector(remainingCount)) {
 		return NO;
 	}
 	return YES;
@@ -117,6 +122,10 @@
  	[logic addTestLength:4];
  	[logic addTestLength:3];
 	[logic startTests];
+}
+
+- (int) remainingCount {
+	return [logic remainingTests];
 }
 
 - (BOOL) otherDirection {

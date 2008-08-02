@@ -35,6 +35,7 @@ function keyeventhandler(event) {
 function getNewQuestion() {
 	FortunePlugin.setOtherDirection(document.getElementById("otherDirectionCheckbox").checked);
 	var line = FortunePlugin.getNewQuestion();
+	var remainingCount = FortunePlugin.remainingCount();
 	if (!line) {
 		line = "Test Complete";
 		hideIcons();
@@ -46,6 +47,7 @@ function getNewQuestion() {
 		document.getElementById("worried").style.display = 'inline';
 	}
 	document.getElementById("ctrTitle").innerHTML = line;
+	document.getElementById("remainingCount").innerHTML = remainingCount;	
 }
 
 function hideIcons() {

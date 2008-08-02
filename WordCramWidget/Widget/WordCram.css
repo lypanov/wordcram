@@ -48,11 +48,11 @@ body {
 	left: 82px;
 }
 
-#ctrText {
+#remainingCount {
 	position:absolute;
 	top:0;
 	width:100%;
-	font:14px "Helvetica Neue";
+	font:10px "Helvetica Neue";
 	color:white;
 	text-align:center;
 }

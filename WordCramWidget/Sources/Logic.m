@@ -61,17 +61,25 @@ int chefFromStringSort(NSManagedObject *chef1, NSManagedObject *chef2, void *con
 	if (m_testSetSizes)
 		[m_testSetSizes release];
 	m_testSetSizes = [[NSMutableArray alloc] init];
+	m_remainingTests = 0;
 }
 
 - (void) addTestLength: (int)length {
 	// rather than modifying all mutators to handle requests > [m_actualArray count] we perform the truncation here already
-	[m_testSetSizes addObject:[NSNumber numberWithInt:MIN(length, [m_actualArray count])]];
+	NSNumber *number = [NSNumber numberWithInt:MIN(length, [m_actualArray count])];
+	[m_testSetSizes addObject:number];
+	m_remainingTests += [number intValue];
+}
+
+- (int) remainingTests {
+	return m_remainingTests;
 }
 
 - (NSManagedObject*) nextItem {
 	[m_currentItem release];
 	m_currentItem = [m_currentList nextObject];
 	[m_currentItem retain];
+	m_remainingTests--;
 	return m_currentItem;
 }
 

@@ -9,6 +9,7 @@
 
 	NSEnumerator *m_testSetSizeEnum;
 	NSMutableArray *m_testSetSizes;
+	int m_remainingTests;
 	NSManagedObjectModel *m_model;
 	NSPersistentStoreCoordinator *m_coordinator;
 	NSManagedObjectContext *m_context;
@@ -19,6 +20,7 @@
 - (Logic*) init;
 - (void) initTestLengths;
 - (void) addTestLength: (int)length;
+- (int) remainingTests;
 - (void) clearState;
 - (void) load:(NSString*)fileName;
 - (void) save;
