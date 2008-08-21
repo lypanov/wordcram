@@ -117,9 +117,9 @@
 - (void) restartTests {
 	[logic load:fileName];
 	[logic initTestLengths];
-	[logic addTestLength:9];
+	[logic addTestLength:8];
  	[logic addTestLength:3];
- 	[logic addTestLength:3];
+ 	[logic addTestLength:2];
  	[logic addTestLength:1];
 	[logic startTests];
 }
