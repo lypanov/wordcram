@@ -75,13 +75,19 @@ function getAnswerAndScoreIt(score) {
 }
 
 var glassDoneButton;
+var glassEditButton;
 var whiteInfoButton;
+
+var edit = function() {
+	widget.openURL("file://" + document.getElementById("testSelect").value);
+};
 
 function loaded(e) {
 	startTest();
 	stretcher = new Stretcher(document.getElementById('front'), 10, 100, function() {});
 	stretcher.stretch(e);
 	glassDoneButton = new AppleGlassButton(document.getElementById("doneButton"), "Done", hidePrefs);
+	glassEditButton = new AppleGlassButton(document.getElementById("editButton"), "Edit", edit);
 	whiteInfoButton = new AppleInfoButton(document.getElementById("infoButton"), document.getElementById("front"), "white", "white", showPrefs);
 }
 
@@ -104,13 +110,7 @@ function showPrefs() {
 			if (selectedTest == availableTests[i])
 				availableTestsSelect.options[i].selected = true;
 		}
-	var para = document.getElementById("fileLink");
-	var button = document.createElement("button");
-	button.innerHTML = "foobar";
-	
-	button.onclick = function() { widget.openURL("file://" + selectedTest);  };
-	para.appendChild(button);
-	
+
 	front.style.display="none";		// hide the front
 	back.style.display="block";		// show the back
 	

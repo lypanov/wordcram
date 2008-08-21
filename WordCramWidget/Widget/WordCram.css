@@ -48,6 +48,12 @@ body {
 	left: 82px;
 }
 
+#editButton {
+	position: absolute;
+	bottom: 20px;
+	left: 138px;
+}
+
 #remainingCount {
 	position:absolute;
 	top:0;
@@ -140,12 +146,6 @@ body {
 	position: absolute;
 	top: 10px;
 	left: 200px;
-}
-
-#fileLink {
-	position: absolute;
-	top: 70px;
-	left: 104px;
 }
 
 #restart {
