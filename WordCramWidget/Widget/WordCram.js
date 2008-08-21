@@ -62,7 +62,6 @@ function getAnswerAndScoreIt(score) {
 	// var url = "file://localhost/Users/lypanov/Desktop/Audio.mov";
 	// document.getElementById("audio").innerHTML = "<embed src=\"" + url + "\" autostart=\"true\"></embed>";
 	var line;
-	hideIcons();
 	if (score == -1)
 		document.getElementById("crying").style.display = 'inline';
 	else if (score == 1)
@@ -140,11 +139,11 @@ function next(score) {
 	hideContent();
 	animation.callback = function() {
 		animation.callback = null;
+		hideIcons();
 		getAnswerAndScoreIt(score);
-		setTimeout("showContent();",550);
-		setTimeout("hideContent();",2000);
-		setTimeout("getNewQuestion();",2500);
-		setTimeout("showContent();",3000);
+		setTimeout("showContent();",250);
+		setTimeout("hideIcons(); hideContent();",1500);
+		setTimeout("getNewQuestion();showContent();",2250);
 	}
 }
 
@@ -162,12 +161,12 @@ function showContent() {
 		var starttime = (new Date).getTime() - 13; 		// set it back one frame
 		
 		
-		animation.duration = 500;												// animation time, in ms
 		animation.starttime = starttime;										// specify the start time
 		animation.firstElement = document.getElementById ('ctrTitle');				// specify the element to fade
 		animation.timer = setInterval("animate();", 13);						// set the animation function
 		animation.from = animation.now;											// beginning opacity (not ness. 0)
 		animation.to = 1.0;														// final opacity
+		animation.duration = 250;
 		animate();
 }
 
@@ -182,7 +181,7 @@ function hideContent() {
 		
 		var starttime = (new Date).getTime() - 13;
 		
-		animation.duration = 500;
+		animation.duration = 250;
 		animation.starttime = starttime;
 		animation.firstElement = document.getElementById ('ctrTitle');
 		animation.timer = setInterval ("animate();", 13);
