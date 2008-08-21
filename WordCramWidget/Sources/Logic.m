@@ -55,6 +55,7 @@ int chefFromStringSort(NSManagedObject *chef1, NSManagedObject *chef2, void *con
 		[self scoreSort];
 		[self iterateFirst:[length intValue]];
 	}
+	m_remainingTests--;
 }
 
 - (void) initTestLengths {
@@ -79,7 +80,6 @@ int chefFromStringSort(NSManagedObject *chef1, NSManagedObject *chef2, void *con
 	[m_currentItem release];
 	m_currentItem = [m_currentList nextObject];
 	[m_currentItem retain];
-	m_remainingTests--;
 	return m_currentItem;
 }
 
