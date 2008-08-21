@@ -127,7 +127,8 @@ int chefFromStringSort(NSManagedObject *chef1, NSManagedObject *chef2, void *con
 
 - (void) iterateFirst: (int)numberOf {
 	NSMutableArray *tmp = [m_actualArray mutableCopy];
-	[tmp removeObjectsInRange:NSMakeRange(numberOf, [tmp count] - numberOf)];
+	if (numberOf < [tmp count])
+		[tmp removeObjectsInRange:NSMakeRange(numberOf, [tmp count] - numberOf)];
 	[m_currentList release];
 	m_currentList = [tmp objectEnumerator];
 	[m_currentList retain];
